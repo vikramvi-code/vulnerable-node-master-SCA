@@ -1,0 +1,4266 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2026-11-05T09:39:28Z",
+    "creators": [
+      "Organization: Innovation Hub",
+      "Person: Vikram Vijan \u003Cvikramvi@hcl-software.com\u003E",
+      "Tool: HCL AppScan"
+    ]
+  },
+  "name": "SPDX report for vulnerable-nodejs",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://HCL-Software.com/AppScan/spdx/doc/65e11d27-f8dd-470f-ab69-01c4ceee820e",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-xtend-4.0.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/xtend/v/4.0.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/xtend@4.0.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/Raynos/xtend",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "xtend",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.0.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/whatwg-url/v/14.2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/whatwg-url@14.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jsdom/whatwg-url#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "whatwg-url",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "14.2.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-tr46-5.1.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/tr46/v/5.1.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/tr46@5.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jsdom/tr46#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "tr46",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "5.1.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-webidl-conversions-7.0.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/webidl-conversions/v/7.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/webidl-conversions@7.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jsdom/webidl-conversions#readme",
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "BSD-2-Clause",
+      "name": "webidl-conversions",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "7.0.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-vary-1.1.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/vary/v/1.1.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/vary@1.1.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/vary#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "vary",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.1.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-utils-merge-1.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/utils-merge/v/1.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/utils-merge@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jaredhanson/utils-merge#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "utils-merge",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/unpipe/v/1.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/unpipe@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/stream-utils/unpipe",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "unpipe",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-uid-safe-2.1.5",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/uid-safe/v/2.1.5",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/uid-safe@2.1.5",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/crypto-utils/uid-safe#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "uid-safe",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.1.5",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-random-bytes-1.0.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/random-bytes/v/1.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/random-bytes@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/crypto-utils/random-bytes",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "random-bytes",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/type-is/v/1.6.18",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/type-is@1.6.18",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/type-is#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "type-is",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.6.18",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-media-typer-0.3.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/media-typer/v/0.3.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/media-typer@0.3.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/media-typer#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "media-typer",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "0.3.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/mime-types/v/2.1.35",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/mime-types@2.1.35",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/mime-types#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "mime-types",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.1.35",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-punycode-2.3.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/punycode/v/2.3.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/punycode@2.3.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://mths.be/punycode",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "punycode",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.3.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-toidentifier-1.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/toidentifier/v/1.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/toidentifier@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/component/toidentifier#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "toidentifier",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/statuses/v/2.0.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/statuses@2.0.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/statuses#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "statuses",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.0.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-split2-4.2.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/split2/v/4.2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/split2@4.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/mcollina/split2#readme",
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "ISC",
+      "name": "split2",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.2.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-sparse-bitfield-3.0.3",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/sparse-bitfield/v/3.0.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/sparse-bitfield@3.0.3",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/mafintosh/sparse-bitfield",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "sparse-bitfield",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "3.0.3",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-memory-pager-1.5.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/memory-pager/v/1.5.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/memory-pager@1.5.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/mafintosh/memory-pager",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "memory-pager",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.5.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/side-channel-weakmap/v/1.0.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/side-channel-weakmap@1.0.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ljharb/side-channel-weakmap#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "side-channel-weakmap",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/call-bound/v/1.0.4",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/call-bound@1.0.4",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ljharb/call-bound#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "call-bound",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.4",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/es-errors/v/1.3.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/es-errors@1.3.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ljharb/es-errors#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "es-errors",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.3.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/get-intrinsic/v/1.3.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/get-intrinsic@1.3.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ljharb/get-intrinsic#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "get-intrinsic",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.3.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/object-inspect/v/1.13.4",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/object-inspect@1.13.4",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/inspect-js/object-inspect",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "object-inspect",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.13.4",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/side-channel-map/v/1.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/side-channel-map@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ljharb/side-channel-map#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "side-channel-map",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/side-channel-list/v/1.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/side-channel-list@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ljharb/side-channel-list#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "side-channel-list",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/side-channel/v/1.1.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/side-channel@1.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ljharb/side-channel#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "side-channel",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.1.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/setprototypeof/v/1.2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/setprototypeof@1.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/wesleytodd/setprototypeof",
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "ISC",
+      "name": "setprototypeof",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.2.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/serve-static/v/1.16.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/serve-static@1.16.3",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/expressjs/serve-static#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "serve-static",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.16.3",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/encodeurl/v/2.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/encodeurl@2.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/pillarjs/encodeurl#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "encodeurl",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.0.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/escape-html/v/1.0.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/escape-html@1.0.3",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/component/escape-html",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "escape-html",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.3",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/parseurl/v/1.3.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/parseurl@1.3.3",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/pillarjs/parseurl#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "parseurl",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.3.3",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/send/v/0.19.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/send@0.19.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/pillarjs/send#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "send",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "0.19.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/debug/v/2.6.9",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/debug@2.6.9",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/debug-js/debug#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "debug",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.6.9",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/depd/v/2.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/depd@2.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/dougwilson/nodejs-depd#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "depd",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.0.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/destroy/v/1.2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/destroy@1.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/stream-utils/destroy#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "destroy",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.2.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/etag/v/1.8.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/etag@1.8.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/etag#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "etag",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.8.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/fresh/v/0.5.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/fresh@0.5.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/fresh#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "fresh",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "0.5.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/http-errors/v/2.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/http-errors@2.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/http-errors#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "http-errors",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-1.6.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/mime/v/1.6.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/mime@1.6.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/broofa/mime#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "mime",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.6.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/ms/v/2.1.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/ms@2.1.3",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/vercel/ms#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "ms",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.1.3",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/on-finished/v/2.4.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/on-finished@2.4.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/on-finished#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "on-finished",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.4.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/range-parser/v/1.2.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/range-parser@1.2.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/range-parser#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "range-parser",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.2.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safer-buffer-2.1.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/safer-buffer/v/2.1.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/safer-buffer@2.1.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ChALkeR/safer-buffer#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "safer-buffer",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.1.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/raw-body/v/2.5.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/raw-body@2.5.3",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/stream-utils/raw-body#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "raw-body",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.5.3",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/bytes/v/3.1.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/bytes@3.1.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/visionmedia/bytes.js#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "bytes",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "3.1.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/iconv-lite/v/0.4.24",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/iconv-lite@0.4.24",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ashtuchkin/iconv-lite",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "iconv-lite",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "0.4.24",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/qs/v/6.16.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/qs@6.16.0",
+          "referenceType": "purl"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "CVE-2026-110816",
+          "referenceType": "advisory"
+        }
+      ],
+      "homepage": "https://github.com/ljharb/qs",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "qs",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "6.16.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/es-define-property/v/1.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/es-define-property@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ljharb/es-define-property#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "es-define-property",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/proxy-addr/v/2.0.7",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/proxy-addr@2.0.7",
+          "referenceType": "purl"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "CVE-2026-90711",
+          "referenceType": "advisory"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/proxy-addr#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "proxy-addr",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.0.7",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-forwarded-0.2.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/forwarded/v/0.2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/forwarded@0.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/forwarded#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "forwarded",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "0.2.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ipaddr.js-1.9.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/ipaddr.js/v/1.9.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/ipaddr.js@1.9.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/whitequark/ipaddr.js#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "ipaddr.js",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.9.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-interval-1.2.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/postgres-interval/v/1.2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/postgres-interval@1.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/bendrucker/postgres-interval#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "postgres-interval",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.2.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-date-1.0.7",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/postgres-date/v/1.0.7",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/postgres-date@1.0.7",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/bendrucker/postgres-date#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "postgres-date",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.7",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-bytea-1.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/postgres-bytea/v/1.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/postgres-bytea@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/bendrucker/postgres-bytea#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "postgres-bytea",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-array-2.0.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/postgres-array/v/2.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/postgres-array@2.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/bendrucker/postgres-array#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "postgres-array",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.0.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-picocolors-1.1.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/picocolors/v/1.1.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/picocolors@1.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/alexeyraspopov/picocolors#readme",
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "ISC",
+      "name": "picocolors",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.1.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pgpass-1.0.5",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/pgpass/v/1.0.5",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/pgpass@1.0.5",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/hoegaarden/pgpass#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "pgpass",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.5",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/pg-types/v/2.2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/pg-types@2.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/brianc/node-pg-types",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "pg-types",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.2.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-int8-1.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/pg-int8/v/1.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/pg-int8@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/charmander/pg-int8#readme",
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "ISC",
+      "name": "pg-int8",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-protocol-1.16.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/pg-protocol/v/1.16.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/pg-protocol@1.16.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/brianc/node-postgres#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "pg-protocol",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.16.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-pool-3.14.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/pg-pool/v/3.14.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/pg-pool@3.14.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/brianc/node-pg-pool#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "pg-pool",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "3.14.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-connection-string-2.14.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/pg-connection-string/v/2.14.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/pg-connection-string@2.14.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/brianc/node-postgres/tree/master/packages/pg-connection-string",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "pg-connection-string",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.14.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-cloudflare-1.4.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/pg-cloudflare/v/1.4.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/pg-cloudflare@1.4.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/brianc/node-postgres#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "pg-cloudflare",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.4.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/pg/v/8.23.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/pg@8.23.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/brianc/node-postgres",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "pg",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "8.23.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-path-to-regexp-0.1.13",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/path-to-regexp/v/0.1.13",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/path-to-regexp@0.1.13",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/pillarjs/path-to-regexp#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "path-to-regexp",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "0.1.13",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/on-headers/v/1.1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/on-headers@1.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/on-headers#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "on-headers",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.1.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ee-first-1.1.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/ee-first/v/1.1.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/ee-first@1.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jonathanong/ee-first",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "ee-first",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.1.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-negotiator-0.6.3",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/negotiator/v/0.6.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/negotiator@0.6.3",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/negotiator#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "negotiator",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "0.6.3",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/morgan/v/1.12.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/morgan@1.12.0",
+          "referenceType": "purl"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "CVE-2026-87859",
+          "referenceType": "advisory"
+        }
+      ],
+      "homepage": "https://github.com/expressjs/morgan#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "morgan",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.12.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-basic-auth-2.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/basic-auth/v/2.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/basic-auth@2.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/basic-auth#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "basic-auth",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/mongodb-connection-string-url/v/3.0.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/mongodb-connection-string-url@3.0.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/mongodb-js/mongodb-connection-string-url",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "mongodb-connection-string-url",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "3.0.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-types-whatwg-url-11.0.5",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/@types/whatwg-url/v/11.0.5",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40types/whatwg-url@11.0.5",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/whatwg-url",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "@types/whatwg-url",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "11.0.5",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/mongodb/v/6.21.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/mongodb@6.21.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/mongodb/node-mongodb-native",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "mongodb",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "6.21.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-js-saslprep-1.5.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/@mongodb-js/saslprep/v/1.5.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40mongodb-js/saslprep@1.5.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/mongodb-js/devtools-shared/tree/main/packages/saslprep",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "@mongodb-js/saslprep",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.5.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bson-6.10.4",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/bson/v/6.10.4",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/bson@6.10.4",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/mongodb/js-bson#readme",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "bson",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "6.10.4",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-minimatch-5.1.9",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/minimatch/v/5.1.9",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/minimatch@5.1.9",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/isaacs/minimatch#readme",
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "ISC",
+      "name": "minimatch",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "5.1.9",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/brace-expansion/v/2.1.4",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/brace-expansion@2.1.4",
+          "referenceType": "purl"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "CVE-2026-102276",
+          "referenceType": "advisory"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "CVE-2026-102278",
+          "referenceType": "advisory"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "CVE-2026-102277",
+          "referenceType": "advisory"
+        }
+      ],
+      "homepage": "https://github.com/juliangruber/brace-expansion#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "brace-expansion",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.1.4",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-db-1.52.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/mime-db/v/1.52.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/mime-db@1.52.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/mime-db#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "mime-db",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.52.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-methods-1.1.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/methods/v/1.1.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/methods@1.1.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/methods",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "methods",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.1.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-merge-descriptors-1.0.3",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/merge-descriptors/v/1.0.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/merge-descriptors@1.0.3",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/sindresorhus/merge-descriptors#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "merge-descriptors",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.3",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-math-intrinsics-1.1.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/math-intrinsics/v/1.1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/math-intrinsics@1.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/es-shims/math-intrinsics#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "math-intrinsics",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.1.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.once-4.1.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/lodash.once/v/4.1.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/lodash.once@4.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://lodash.com/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "lodash.once",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isstring-4.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/lodash.isstring/v/4.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/lodash.isstring@4.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://lodash.com/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "lodash.isstring",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isplainobject-4.0.6",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/lodash.isplainobject/v/4.0.6",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/lodash.isplainobject@4.0.6",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://lodash.com/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "lodash.isplainobject",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.0.6",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isnumber-3.0.3",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/lodash.isnumber/v/3.0.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/lodash.isnumber@3.0.3",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://lodash.com/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "lodash.isnumber",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "3.0.3",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isinteger-4.0.4",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/lodash.isinteger/v/4.0.4",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/lodash.isinteger@4.0.4",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://lodash.com/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "lodash.isinteger",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.0.4",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isboolean-3.0.3",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/lodash.isboolean/v/3.0.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/lodash.isboolean@3.0.3",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://lodash.com/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "lodash.isboolean",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "3.0.3",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.includes-4.3.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/lodash.includes/v/4.3.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/lodash.includes@4.3.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://lodash.com/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "lodash.includes",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.3.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/jws/v/4.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/jws@4.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/brianloveswords/node-jws#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "jws",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/jwa/v/2.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/jwa@2.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/brianloveswords/node-jwa#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "jwa",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/safe-buffer/v/5.2.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/safe-buffer@5.2.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/feross/safe-buffer",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "safe-buffer",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "5.2.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-buffer-equal-constant-time-1.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/buffer-equal-constant-time/v/1.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/buffer-equal-constant-time@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/goinstant/buffer-equal-constant-time",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "buffer-equal-constant-time",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ecdsa-sig-formatter-1.0.11",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/ecdsa-sig-formatter/v/1.0.11",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/ecdsa-sig-formatter@1.0.11",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/Brightspace/node-ecdsa-sig-formatter#readme",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "ecdsa-sig-formatter",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.11",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-semver-7.8.5",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/semver/v/7.8.5",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/semver@7.8.5",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/npm/node-semver#readme",
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "ISC",
+      "name": "semver",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "7.8.5",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/jsonwebtoken/v/9.0.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/jsonwebtoken@9.0.3",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/auth0/node-jsonwebtoken#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "jsonwebtoken",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "9.0.3",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/jake/v/10.9.4",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/jake@10.9.4",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jakejs/jake#readme",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "jake",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "10.9.4",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-async-3.2.6",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/async/v/3.2.6",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/async@3.2.6",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/caolan/async#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "async",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "3.2.6",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-filelist-1.0.6",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/filelist/v/1.0.6",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/filelist@1.0.6",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/mde/filelist",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "filelist",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.6",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-inherits-2.0.4",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/inherits/v/2.0.4",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/inherits@2.0.4",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/isaacs/inherits#readme",
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "ISC",
+      "name": "inherits",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.0.4",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-hasown-2.0.4",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/hasown/v/2.0.4",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/hasown@2.0.4",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/inspect-js/hasOwn#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "hasown",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.0.4",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/function-bind/v/1.1.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/function-bind@1.1.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/Raynos/function-bind",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "function-bind",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.1.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-has-symbols-1.1.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/has-symbols/v/1.1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/has-symbols@1.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ljharb/has-symbols#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "has-symbols",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.1.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/gopd/v/1.2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/gopd@1.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ljharb/gopd#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "gopd",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.2.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/get-proto/v/1.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/get-proto@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ljharb/get-proto#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "get-proto",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/dunder-proto/v/1.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/dunder-proto@1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/es-shims/dunder-proto#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "dunder-proto",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/es-object-atoms/v/1.1.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/es-object-atoms@1.1.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ljharb/es-object-atoms#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "es-object-atoms",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.1.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/call-bind-apply-helpers/v/1.0.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/call-bind-apply-helpers@1.0.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/ljharb/call-bind-apply-helpers#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "call-bind-apply-helpers",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/finalhandler/v/1.3.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/finalhandler@1.3.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/pillarjs/finalhandler#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "finalhandler",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.3.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/express-session/v/1.19.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/express-session@1.19.0",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/expressjs/session#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "express-session",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.19.0",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/cookie/v/0.7.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/cookie@0.7.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/cookie#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "cookie",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "0.7.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/cookie-signature/v/1.0.7",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/cookie-signature@1.0.7",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/visionmedia/node-cookie-signature#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "cookie-signature",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.7",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/express/v/4.22.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/express@4.22.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "http://expressjs.com/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "express",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.22.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/accepts/v/1.3.8",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/accepts@1.3.8",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/accepts#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "accepts",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.3.8",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-array-flatten-1.1.1",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/array-flatten/v/1.1.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/array-flatten@1.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/blakeembrey/array-flatten",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "array-flatten",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.1.1",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/body-parser/v/1.20.6",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/body-parser@1.20.6",
+          "referenceType": "purl"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "CVE-2026-111181",
+          "referenceType": "advisory"
+        }
+      ],
+      "homepage": "https://github.com/expressjs/body-parser#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "body-parser",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.20.6",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-disposition-0.5.4",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/content-disposition/v/0.5.4",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/content-disposition@0.5.4",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/content-disposition#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "content-disposition",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "0.5.4",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/content-type/v/1.0.5",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/content-type@1.0.5",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/jshttp/content-type#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "content-type",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.5",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ejs-3.1.10",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/ejs/v/3.1.10",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/ejs@3.1.10",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/mde/ejs",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "ejs",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "3.1.10",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-parser-1.4.7",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/cookie-parser/v/1.4.7",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/cookie-parser@1.4.7",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/expressjs/cookie-parser#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "cookie-parser",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.4.7",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-balanced-match-1.0.2",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/balanced-match/v/1.0.2",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/balanced-match@1.0.2",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/juliangruber/balanced-match#readme",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "balanced-match",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.0.2",
+      "packageComment": "TechnologyType:JS"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-types-webidl-conversions-7.0.3",
+      "copyrightText": "",
+      "description": "",
+      "downloadLocation": "https://www.npmjs.com/package/@types/webidl-conversions/v/7.0.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40types/webidl-conversions@7.0.3",
+          "referenceType": "purl"
+        }
+      ],
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/webidl-conversions",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "@types/webidl-conversions",
+      "originator": "NOASSERTION",
+      "packageFileName": "vulnerable-node-master/package-lock.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "7.0.3",
+      "packageComment": "TechnologyType:JS"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-tr46-5.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-webidl-conversions-7.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-uid-safe-2.1.5",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-random-bytes-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-media-typer-0.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-tr46-5.1.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-punycode-2.3.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-sparse-bitfield-3.0.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-memory-pager-1.5.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-1.6.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-forwarded-0.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ipaddr.js-1.9.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-interval-1.2.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-xtend-4.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pgpass-1.0.5",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-split2-4.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-int8-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-array-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-bytea-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-date-1.0.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-interval-1.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-connection-string-2.14.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-pool-3.14.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-protocol-1.16.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pgpass-1.0.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ee-first-1.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-basic-auth-2.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-types-whatwg-url-11.0.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-js-saslprep-1.5.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bson-6.10.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-minimatch-5.1.9",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-db-1.52.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-buffer-equal-constant-time-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ecdsa-sig-formatter-1.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.includes-4.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isboolean-3.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isinteger-4.0.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isnumber-3.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isplainobject-4.0.6"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isstring-4.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.once-4.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-semver-7.8.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-async-3.2.6"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-filelist-1.0.6"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-picocolors-1.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safer-buffer-2.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-inherits-2.0.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-toidentifier-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-hasown-2.0.4",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-has-symbols-1.1.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-hasown-2.0.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-math-intrinsics-1.1.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-filelist-1.0.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-minimatch-5.1.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-uid-safe-2.1.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-array-flatten-1.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-disposition-0.5.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-merge-descriptors-1.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-methods-1.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-path-to-regexp-0.1.13"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-utils-merge-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-vary-1.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ejs-3.1.10",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ecdsa-sig-formatter-1.0.11",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-parser-1.4.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-parser-1.4.7",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-disposition-0.5.4",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-balanced-match-1.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-basic-auth-2.0.1",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-negotiator-0.6.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-types-whatwg-url-11.0.5",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-types-webidl-conversions-7.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-js-saslprep-1.5.0",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-sparse-bitfield-3.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-js-saslprep-1.5.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-types-webidl-conversions-7.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-types-whatwg-url-11.0.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-array-flatten-1.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-async-3.2.6"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-balanced-match-1.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-basic-auth-2.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bson-6.10.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-buffer-equal-constant-time-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-disposition-0.5.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-parser-1.4.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ecdsa-sig-formatter-1.0.11"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ee-first-1.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ejs-3.1.10"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-filelist-1.0.6"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-forwarded-0.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-has-symbols-1.1.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-hasown-2.0.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-inherits-2.0.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ipaddr.js-1.9.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.includes-4.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isboolean-3.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isinteger-4.0.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isnumber-3.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isplainobject-4.0.6"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isstring-4.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.once-4.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-math-intrinsics-1.1.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-media-typer-0.3.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-memory-pager-1.5.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-merge-descriptors-1.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-methods-1.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-1.6.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-db-1.52.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-minimatch-5.1.9"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-negotiator-0.6.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-path-to-regexp-0.1.13"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-cloudflare-1.4.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-connection-string-2.14.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-int8-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-pool-3.14.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-protocol-1.16.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pgpass-1.0.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-picocolors-1.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-array-2.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-bytea-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-date-1.0.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-interval-1.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-punycode-2.3.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-random-bytes-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safer-buffer-2.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-semver-7.8.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-sparse-bitfield-3.0.3"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-split2-4.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-toidentifier-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-tr46-5.1.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-uid-safe-2.1.5"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-utils-merge-1.0.1"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-vary-1.1.2"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-webidl-conversions-7.0.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-xtend-4.0.2"
+    }
+  ]
+}

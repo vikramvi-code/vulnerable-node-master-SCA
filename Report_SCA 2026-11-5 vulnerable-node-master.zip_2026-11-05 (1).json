@@ -1,0 +1,5055 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:16a7c3ce-d799-4180-aa52-5a2d65124d5e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-05T09:39:41Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "name": "HCL AppScan"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "Vikram Vijan \u003Cvikramvi@hcl-software.com\u003E",
+        "email": "vikramvi@hcl-software.com"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "65e11d27-f8dd-470f-ab69-01c4ceee820e",
+      "name": "vulnerable-nodejs",
+      "version": "2.1.0"
+    },
+    "manufacturer": {
+      "name": "Innovation Hub"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-xtend-4.0.2",
+      "name": "xtend",
+      "version": "4.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/xtend@4.0.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/xtend/v/4.0.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/Raynos/xtend",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0",
+      "name": "whatwg-url",
+      "version": "14.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/whatwg-url@14.2.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/whatwg-url/v/14.2.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jsdom/whatwg-url#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-tr46-5.1.1",
+      "name": "tr46",
+      "version": "5.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/tr46@5.1.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/tr46/v/5.1.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jsdom/tr46#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-webidl-conversions-7.0.0",
+      "name": "webidl-conversions",
+      "version": "7.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/webidl-conversions@7.0.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/webidl-conversions/v/7.0.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jsdom/webidl-conversions#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-vary-1.1.2",
+      "name": "vary",
+      "version": "1.1.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/vary@1.1.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/vary/v/1.1.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/vary#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-utils-merge-1.0.1",
+      "name": "utils-merge",
+      "version": "1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/utils-merge@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/utils-merge/v/1.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jaredhanson/utils-merge#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0",
+      "name": "unpipe",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/unpipe@1.0.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/unpipe/v/1.0.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/stream-utils/unpipe",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-uid-safe-2.1.5",
+      "name": "uid-safe",
+      "version": "2.1.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/uid-safe@2.1.5",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/uid-safe/v/2.1.5",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/crypto-utils/uid-safe#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-random-bytes-1.0.0",
+      "name": "random-bytes",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/random-bytes@1.0.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/random-bytes/v/1.0.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/crypto-utils/random-bytes",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18",
+      "name": "type-is",
+      "version": "1.6.18",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/type-is@1.6.18",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/type-is/v/1.6.18",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/type-is#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-media-typer-0.3.0",
+      "name": "media-typer",
+      "version": "0.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/media-typer@0.3.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/media-typer/v/0.3.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/media-typer#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35",
+      "name": "mime-types",
+      "version": "2.1.35",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/mime-types@2.1.35",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/mime-types/v/2.1.35",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/mime-types#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-punycode-2.3.1",
+      "name": "punycode",
+      "version": "2.3.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/punycode@2.3.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/punycode/v/2.3.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://mths.be/punycode",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-toidentifier-1.0.1",
+      "name": "toidentifier",
+      "version": "1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/toidentifier@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/toidentifier/v/1.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/component/toidentifier#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2",
+      "name": "statuses",
+      "version": "2.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/statuses@2.0.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/statuses/v/2.0.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/statuses#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-split2-4.2.0",
+      "name": "split2",
+      "version": "4.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/split2@4.2.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/split2/v/4.2.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/mcollina/split2#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-sparse-bitfield-3.0.3",
+      "name": "sparse-bitfield",
+      "version": "3.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/sparse-bitfield@3.0.3",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/sparse-bitfield/v/3.0.3",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/mafintosh/sparse-bitfield",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-memory-pager-1.5.0",
+      "name": "memory-pager",
+      "version": "1.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/memory-pager@1.5.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/memory-pager/v/1.5.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/mafintosh/memory-pager",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2",
+      "name": "side-channel-weakmap",
+      "version": "1.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/side-channel-weakmap@1.0.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/side-channel-weakmap/v/1.0.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ljharb/side-channel-weakmap#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4",
+      "name": "call-bound",
+      "version": "1.0.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/call-bound@1.0.4",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/call-bound/v/1.0.4",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ljharb/call-bound#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0",
+      "name": "es-errors",
+      "version": "1.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/es-errors@1.3.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/es-errors/v/1.3.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ljharb/es-errors#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+      "name": "get-intrinsic",
+      "version": "1.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/get-intrinsic@1.3.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/get-intrinsic/v/1.3.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ljharb/get-intrinsic#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4",
+      "name": "object-inspect",
+      "version": "1.13.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/object-inspect@1.13.4",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/object-inspect/v/1.13.4",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/inspect-js/object-inspect",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1",
+      "name": "side-channel-map",
+      "version": "1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/side-channel-map@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/side-channel-map/v/1.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ljharb/side-channel-map#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1",
+      "name": "side-channel-list",
+      "version": "1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/side-channel-list@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/side-channel-list/v/1.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ljharb/side-channel-list#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1",
+      "name": "side-channel",
+      "version": "1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/side-channel@1.1.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/side-channel/v/1.1.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ljharb/side-channel#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0",
+      "name": "setprototypeof",
+      "version": "1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/setprototypeof@1.2.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/setprototypeof/v/1.2.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/wesleytodd/setprototypeof",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3",
+      "name": "serve-static",
+      "version": "1.16.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/serve-static@1.16.3",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/serve-static/v/1.16.3",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/expressjs/serve-static#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0",
+      "name": "encodeurl",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/encodeurl@2.0.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/encodeurl/v/2.0.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/pillarjs/encodeurl#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3",
+      "name": "escape-html",
+      "version": "1.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/escape-html@1.0.3",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/escape-html/v/1.0.3",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/component/escape-html",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3",
+      "name": "parseurl",
+      "version": "1.3.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/parseurl@1.3.3",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/parseurl/v/1.3.3",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/pillarjs/parseurl#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "name": "send",
+      "version": "0.19.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/send@0.19.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/send/v/0.19.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/pillarjs/send#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9",
+      "name": "debug",
+      "version": "2.6.9",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/debug@2.6.9",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/debug/v/2.6.9",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/debug-js/debug#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0",
+      "name": "depd",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/depd@2.0.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/depd/v/2.0.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/dougwilson/nodejs-depd#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0",
+      "name": "destroy",
+      "version": "1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/destroy@1.2.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/destroy/v/1.2.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/stream-utils/destroy#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1",
+      "name": "etag",
+      "version": "1.8.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/etag@1.8.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/etag/v/1.8.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/etag#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2",
+      "name": "fresh",
+      "version": "0.5.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/fresh@0.5.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/fresh/v/0.5.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/fresh#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1",
+      "name": "http-errors",
+      "version": "2.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/http-errors@2.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/http-errors/v/2.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/http-errors#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-1.6.0",
+      "name": "mime",
+      "version": "1.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/mime@1.6.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/mime/v/1.6.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/broofa/mime#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3",
+      "name": "ms",
+      "version": "2.1.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ms@2.1.3",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/ms/v/2.1.3",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/vercel/ms#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1",
+      "name": "on-finished",
+      "version": "2.4.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/on-finished@2.4.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/on-finished/v/2.4.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/on-finished#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1",
+      "name": "range-parser",
+      "version": "1.2.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/range-parser@1.2.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/range-parser/v/1.2.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/range-parser#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safer-buffer-2.1.2",
+      "name": "safer-buffer",
+      "version": "2.1.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/safer-buffer@2.1.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/safer-buffer/v/2.1.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ChALkeR/safer-buffer#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3",
+      "name": "raw-body",
+      "version": "2.5.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/raw-body@2.5.3",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/raw-body/v/2.5.3",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/stream-utils/raw-body#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2",
+      "name": "bytes",
+      "version": "3.1.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/bytes@3.1.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/bytes/v/3.1.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/visionmedia/bytes.js#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24",
+      "name": "iconv-lite",
+      "version": "0.4.24",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/iconv-lite@0.4.24",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/iconv-lite/v/0.4.24",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ashtuchkin/iconv-lite",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0",
+      "name": "qs",
+      "version": "6.16.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/qs@6.16.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/qs/v/6.16.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ljharb/qs",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1",
+      "name": "es-define-property",
+      "version": "1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/es-define-property@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/es-define-property/v/1.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ljharb/es-define-property#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7",
+      "name": "proxy-addr",
+      "version": "2.0.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/proxy-addr@2.0.7",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/proxy-addr/v/2.0.7",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/proxy-addr#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-forwarded-0.2.0",
+      "name": "forwarded",
+      "version": "0.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/forwarded@0.2.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/forwarded/v/0.2.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/forwarded#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ipaddr.js-1.9.1",
+      "name": "ipaddr.js",
+      "version": "1.9.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ipaddr.js@1.9.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/ipaddr.js/v/1.9.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/whitequark/ipaddr.js#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-interval-1.2.0",
+      "name": "postgres-interval",
+      "version": "1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/postgres-interval@1.2.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/postgres-interval/v/1.2.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/bendrucker/postgres-interval#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-date-1.0.7",
+      "name": "postgres-date",
+      "version": "1.0.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/postgres-date@1.0.7",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/postgres-date/v/1.0.7",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/bendrucker/postgres-date#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-bytea-1.0.1",
+      "name": "postgres-bytea",
+      "version": "1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/postgres-bytea@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/postgres-bytea/v/1.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/bendrucker/postgres-bytea#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-array-2.0.0",
+      "name": "postgres-array",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/postgres-array@2.0.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/postgres-array/v/2.0.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/bendrucker/postgres-array#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-picocolors-1.1.1",
+      "name": "picocolors",
+      "version": "1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/picocolors@1.1.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/picocolors/v/1.1.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/alexeyraspopov/picocolors#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pgpass-1.0.5",
+      "name": "pgpass",
+      "version": "1.0.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/pgpass@1.0.5",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/pgpass/v/1.0.5",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/hoegaarden/pgpass#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0",
+      "name": "pg-types",
+      "version": "2.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/pg-types@2.2.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/pg-types/v/2.2.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/brianc/node-pg-types",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-int8-1.0.1",
+      "name": "pg-int8",
+      "version": "1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/pg-int8@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/pg-int8/v/1.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/charmander/pg-int8#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-protocol-1.16.0",
+      "name": "pg-protocol",
+      "version": "1.16.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/pg-protocol@1.16.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/pg-protocol/v/1.16.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/brianc/node-postgres#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-pool-3.14.0",
+      "name": "pg-pool",
+      "version": "3.14.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/pg-pool@3.14.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/pg-pool/v/3.14.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/brianc/node-pg-pool#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-connection-string-2.14.0",
+      "name": "pg-connection-string",
+      "version": "2.14.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/pg-connection-string@2.14.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/pg-connection-string/v/2.14.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/brianc/node-postgres/tree/master/packages/pg-connection-string",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-cloudflare-1.4.0",
+      "name": "pg-cloudflare",
+      "version": "1.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/pg-cloudflare@1.4.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/pg-cloudflare/v/1.4.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/brianc/node-postgres#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0",
+      "name": "pg",
+      "version": "8.23.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/pg@8.23.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/pg/v/8.23.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/brianc/node-postgres",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-path-to-regexp-0.1.13",
+      "name": "path-to-regexp",
+      "version": "0.1.13",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/path-to-regexp@0.1.13",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/path-to-regexp/v/0.1.13",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/pillarjs/path-to-regexp#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0",
+      "name": "on-headers",
+      "version": "1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/on-headers@1.1.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/on-headers/v/1.1.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/on-headers#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ee-first-1.1.1",
+      "name": "ee-first",
+      "version": "1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ee-first@1.1.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/ee-first/v/1.1.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jonathanong/ee-first",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-negotiator-0.6.3",
+      "name": "negotiator",
+      "version": "0.6.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/negotiator@0.6.3",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/negotiator/v/0.6.3",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/negotiator#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0",
+      "name": "morgan",
+      "version": "1.12.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/morgan@1.12.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/morgan/v/1.12.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/expressjs/morgan#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-basic-auth-2.0.1",
+      "name": "basic-auth",
+      "version": "2.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/basic-auth@2.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/basic-auth/v/2.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/basic-auth#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2",
+      "name": "mongodb-connection-string-url",
+      "version": "3.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/mongodb-connection-string-url@3.0.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/mongodb-connection-string-url/v/3.0.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/mongodb-js/mongodb-connection-string-url",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@types-whatwg-url-11.0.5",
+      "name": "@types/whatwg-url",
+      "version": "11.0.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40types/whatwg-url@11.0.5",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/@types/whatwg-url/v/11.0.5",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/whatwg-url",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0",
+      "name": "mongodb",
+      "version": "6.21.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/mongodb@6.21.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/mongodb/v/6.21.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/mongodb/node-mongodb-native",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@mongodb-js-saslprep-1.5.0",
+      "name": "@mongodb-js/saslprep",
+      "version": "1.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40mongodb-js/saslprep@1.5.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/@mongodb-js/saslprep/v/1.5.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/mongodb-js/devtools-shared/tree/main/packages/saslprep",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bson-6.10.4",
+      "name": "bson",
+      "version": "6.10.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/bson@6.10.4",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/bson/v/6.10.4",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/mongodb/js-bson#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-minimatch-5.1.9",
+      "name": "minimatch",
+      "version": "5.1.9",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/minimatch@5.1.9",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/minimatch/v/5.1.9",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/isaacs/minimatch#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4",
+      "name": "brace-expansion",
+      "version": "2.1.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/brace-expansion@2.1.4",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/brace-expansion/v/2.1.4",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/juliangruber/brace-expansion#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-db-1.52.0",
+      "name": "mime-db",
+      "version": "1.52.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/mime-db@1.52.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/mime-db/v/1.52.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/mime-db#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-methods-1.1.2",
+      "name": "methods",
+      "version": "1.1.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/methods@1.1.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/methods/v/1.1.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/methods",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-merge-descriptors-1.0.3",
+      "name": "merge-descriptors",
+      "version": "1.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/merge-descriptors@1.0.3",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/merge-descriptors/v/1.0.3",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/sindresorhus/merge-descriptors#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-math-intrinsics-1.1.0",
+      "name": "math-intrinsics",
+      "version": "1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/math-intrinsics@1.1.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/math-intrinsics/v/1.1.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/es-shims/math-intrinsics#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.once-4.1.1",
+      "name": "lodash.once",
+      "version": "4.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/lodash.once@4.1.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/lodash.once/v/4.1.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://lodash.com/",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isstring-4.0.1",
+      "name": "lodash.isstring",
+      "version": "4.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/lodash.isstring@4.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/lodash.isstring/v/4.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://lodash.com/",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isplainobject-4.0.6",
+      "name": "lodash.isplainobject",
+      "version": "4.0.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/lodash.isplainobject@4.0.6",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/lodash.isplainobject/v/4.0.6",
+          "type": "distribution"
+        },
+        {
+          "url": "https://lodash.com/",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isnumber-3.0.3",
+      "name": "lodash.isnumber",
+      "version": "3.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/lodash.isnumber@3.0.3",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/lodash.isnumber/v/3.0.3",
+          "type": "distribution"
+        },
+        {
+          "url": "https://lodash.com/",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isinteger-4.0.4",
+      "name": "lodash.isinteger",
+      "version": "4.0.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/lodash.isinteger@4.0.4",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/lodash.isinteger/v/4.0.4",
+          "type": "distribution"
+        },
+        {
+          "url": "https://lodash.com/",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isboolean-3.0.3",
+      "name": "lodash.isboolean",
+      "version": "3.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/lodash.isboolean@3.0.3",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/lodash.isboolean/v/3.0.3",
+          "type": "distribution"
+        },
+        {
+          "url": "https://lodash.com/",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.includes-4.3.0",
+      "name": "lodash.includes",
+      "version": "4.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/lodash.includes@4.3.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/lodash.includes/v/4.3.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://lodash.com/",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1",
+      "name": "jws",
+      "version": "4.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/jws@4.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/jws/v/4.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/brianloveswords/node-jws#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1",
+      "name": "jwa",
+      "version": "2.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/jwa@2.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/jwa/v/2.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/brianloveswords/node-jwa#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1",
+      "name": "safe-buffer",
+      "version": "5.2.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/safe-buffer@5.2.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/safe-buffer/v/5.2.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/feross/safe-buffer",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-buffer-equal-constant-time-1.0.1",
+      "name": "buffer-equal-constant-time",
+      "version": "1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/buffer-equal-constant-time@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/buffer-equal-constant-time/v/1.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/goinstant/buffer-equal-constant-time",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ecdsa-sig-formatter-1.0.11",
+      "name": "ecdsa-sig-formatter",
+      "version": "1.0.11",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ecdsa-sig-formatter@1.0.11",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/ecdsa-sig-formatter/v/1.0.11",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/Brightspace/node-ecdsa-sig-formatter#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-semver-7.8.5",
+      "name": "semver",
+      "version": "7.8.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/semver@7.8.5",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/semver/v/7.8.5",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/npm/node-semver#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3",
+      "name": "jsonwebtoken",
+      "version": "9.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/jsonwebtoken@9.0.3",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/jsonwebtoken/v/9.0.3",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/auth0/node-jsonwebtoken#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        },
+        {
+          "name": "appscan:cryptographic-component",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4",
+      "name": "jake",
+      "version": "10.9.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/jake@10.9.4",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/jake/v/10.9.4",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jakejs/jake#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-async-3.2.6",
+      "name": "async",
+      "version": "3.2.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/async@3.2.6",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/async/v/3.2.6",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/caolan/async#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-filelist-1.0.6",
+      "name": "filelist",
+      "version": "1.0.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/filelist@1.0.6",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/filelist/v/1.0.6",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/mde/filelist",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-inherits-2.0.4",
+      "name": "inherits",
+      "version": "2.0.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/inherits@2.0.4",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/inherits/v/2.0.4",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/isaacs/inherits#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-hasown-2.0.4",
+      "name": "hasown",
+      "version": "2.0.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/hasown@2.0.4",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/hasown/v/2.0.4",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/inspect-js/hasOwn#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2",
+      "name": "function-bind",
+      "version": "1.1.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/function-bind@1.1.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/function-bind/v/1.1.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/Raynos/function-bind",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-has-symbols-1.1.0",
+      "name": "has-symbols",
+      "version": "1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/has-symbols@1.1.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/has-symbols/v/1.1.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ljharb/has-symbols#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0",
+      "name": "gopd",
+      "version": "1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/gopd@1.2.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/gopd/v/1.2.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ljharb/gopd#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1",
+      "name": "get-proto",
+      "version": "1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/get-proto@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/get-proto/v/1.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ljharb/get-proto#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1",
+      "name": "dunder-proto",
+      "version": "1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/dunder-proto@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/dunder-proto/v/1.0.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/es-shims/dunder-proto#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2",
+      "name": "es-object-atoms",
+      "version": "1.1.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/es-object-atoms@1.1.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/es-object-atoms/v/1.1.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ljharb/es-object-atoms#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2",
+      "name": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/call-bind-apply-helpers@1.0.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/call-bind-apply-helpers/v/1.0.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/ljharb/call-bind-apply-helpers#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2",
+      "name": "finalhandler",
+      "version": "1.3.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/finalhandler@1.3.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/finalhandler/v/1.3.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/pillarjs/finalhandler#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0",
+      "name": "express-session",
+      "version": "1.19.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/express-session@1.19.0",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/express-session/v/1.19.0",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/expressjs/session#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2",
+      "name": "cookie",
+      "version": "0.7.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/cookie@0.7.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/cookie/v/0.7.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/cookie#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7",
+      "name": "cookie-signature",
+      "version": "1.0.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/cookie-signature@1.0.7",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/cookie-signature/v/1.0.7",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/visionmedia/node-cookie-signature#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "name": "express",
+      "version": "4.22.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/express@4.22.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/express/v/4.22.2",
+          "type": "distribution"
+        },
+        {
+          "url": "http://expressjs.com/",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8",
+      "name": "accepts",
+      "version": "1.3.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/accepts@1.3.8",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/accepts/v/1.3.8",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/accepts#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-array-flatten-1.1.1",
+      "name": "array-flatten",
+      "version": "1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/array-flatten@1.1.1",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/array-flatten/v/1.1.1",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/blakeembrey/array-flatten",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "name": "body-parser",
+      "version": "1.20.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/body-parser@1.20.6",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/body-parser/v/1.20.6",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/expressjs/body-parser#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-disposition-0.5.4",
+      "name": "content-disposition",
+      "version": "0.5.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/content-disposition@0.5.4",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/content-disposition/v/0.5.4",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/content-disposition#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5",
+      "name": "content-type",
+      "version": "1.0.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/content-type@1.0.5",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/content-type/v/1.0.5",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/jshttp/content-type#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ejs-3.1.10",
+      "name": "ejs",
+      "version": "3.1.10",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ejs@3.1.10",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/ejs/v/3.1.10",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/mde/ejs",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-parser-1.4.7",
+      "name": "cookie-parser",
+      "version": "1.4.7",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/cookie-parser@1.4.7",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/cookie-parser/v/1.4.7",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/expressjs/cookie-parser#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-balanced-match-1.0.2",
+      "name": "balanced-match",
+      "version": "1.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/balanced-match@1.0.2",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/balanced-match/v/1.0.2",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/juliangruber/balanced-match#readme",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@types-webidl-conversions-7.0.3",
+      "name": "@types/webidl-conversions",
+      "version": "7.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40types/webidl-conversions@7.0.3",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/@types/webidl-conversions/v/7.0.3",
+          "type": "distribution"
+        },
+        {
+          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/webidl-conversions",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "hcl:appscan:technologyType",
+          "value": "JS"
+        },
+        {
+          "name": "hcl:appscan:packageFileName",
+          "value": "vulnerable-node-master/package-lock.json"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "65e11d27-f8dd-470f-ab69-01c4ceee820e",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ejs-3.1.10",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-parser-1.4.7"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-xtend-4.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-tr46-5.1.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-webidl-conversions-7.0.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-tr46-5.1.1",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-punycode-2.3.1"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-webidl-conversions-7.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-vary-1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-utils-merge-1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-uid-safe-2.1.5",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-random-bytes-1.0.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-random-bytes-1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-media-typer-0.3.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-media-typer-0.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-db-1.52.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-punycode-2.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-toidentifier-1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-split2-4.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-sparse-bitfield-3.0.3",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-memory-pager-1.5.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-memory-pager-1.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-has-symbols-1.1.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-hasown-2.0.4",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-math-intrinsics-1.1.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-1.6.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-inherits-2.0.4",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-toidentifier-1.0.1"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-1.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ee-first-1.1.1"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safer-buffer-2.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safer-buffer-2.1.2"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-forwarded-0.2.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ipaddr.js-1.9.1"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-forwarded-0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ipaddr.js-1.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-interval-1.2.0",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-xtend-4.0.2"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-date-1.0.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-bytea-1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-array-2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-picocolors-1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pgpass-1.0.5",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-split2-4.2.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-int8-1.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-array-2.0.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-bytea-1.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-date-1.0.7",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-interval-1.2.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-int8-1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-protocol-1.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-pool-3.14.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-connection-string-2.14.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-cloudflare-1.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-connection-string-2.14.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-pool-3.14.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-protocol-1.16.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pgpass-1.0.5"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-path-to-regexp-0.1.13",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ee-first-1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-negotiator-0.6.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-basic-auth-2.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-basic-auth-2.0.1",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@types-whatwg-url-11.0.5",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@types-whatwg-url-11.0.5",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@types-webidl-conversions-7.0.3"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@mongodb-js-saslprep-1.5.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bson-6.10.4",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@mongodb-js-saslprep-1.5.0",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-sparse-bitfield-3.0.3"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bson-6.10.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-minimatch-5.1.9",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-balanced-match-1.0.2"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-db-1.52.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-methods-1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-merge-descriptors-1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-math-intrinsics-1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.once-4.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isstring-4.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isplainobject-4.0.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isnumber-3.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isinteger-4.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isboolean-3.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.includes-4.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-buffer-equal-constant-time-1.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ecdsa-sig-formatter-1.0.11",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-buffer-equal-constant-time-1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ecdsa-sig-formatter-1.0.11",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-semver-7.8.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.includes-4.3.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isboolean-3.0.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isinteger-4.0.4",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isnumber-3.0.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isplainobject-4.0.6",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isstring-4.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.once-4.1.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-semver-7.8.5"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-async-3.2.6",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-filelist-1.0.6",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-picocolors-1.1.1"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-async-3.2.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-filelist-1.0.6",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-minimatch-5.1.9"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-inherits-2.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-hasown-2.0.4",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-has-symbols-1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-uid-safe-2.1.5"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-array-flatten-1.1.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-disposition-0.5.4",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-merge-descriptors-1.0.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-methods-1.1.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-path-to-regexp-0.1.13",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-utils-merge-1.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-vary-1.1.2"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-negotiator-0.6.3"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-array-flatten-1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-disposition-0.5.4",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ejs-3.1.10",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-parser-1.4.7",
+      "dependsOn": [
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2",
+        "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7"
+      ]
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-balanced-match-1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@types-webidl-conversions-7.0.3",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "CVE-2026-110816",
+      "source": {
+        "name": "GitHub Advisories",
+        "url": "https://github.com/advisories/GHSA-6pq8-jhm2-2vcw"
+      },
+      "description": "qs : qs.stringify with arrayFormat \u0027comma\u0027 throws an uncaught TypeError on array elements carrying a non-callable own toString (DoS)",
+      "recommendation": "Upgrade package to version greater than or equal to 6.16.1",
+      "published": "2026-10-27T16:10:55Z",
+      "analysis": {
+        "state": "exploitable",
+        "response": [
+          "update"
+        ],
+        "firstIssued": "2026-11-05T09:39:42Z",
+        "lastUpdated": "2026-11-05T09:39:42Z"
+      },
+      "affects": [
+        {
+          "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-90711",
+      "source": {
+        "name": "GitHub Advisories",
+        "url": "https://github.com/advisories/GHSA-jqcg-44mw-7w3h"
+      },
+      "description": "proxy-addr vulnerable to IP spoofing via IPv4-mapped IPv6 trust subnet",
+      "recommendation": "Upgrade package to version greater than or equal to 2.0.8",
+      "published": "2026-10-05T23:30:26Z",
+      "analysis": {
+        "state": "exploitable",
+        "response": [
+          "update"
+        ],
+        "firstIssued": "2026-11-05T09:39:42Z",
+        "lastUpdated": "2026-11-05T09:39:42Z"
+      },
+      "affects": [
+        {
+          "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-87859",
+      "source": {
+        "name": "GitHub Advisories",
+        "url": "https://github.com/advisories/GHSA-9f6g-j8ch-79g4"
+      },
+      "description": "morgan vulnerable to Log Injection via unescaped double quote in quoted log fields",
+      "recommendation": "Upgrade package to version greater than or equal to 1.12.1",
+      "published": "2026-09-28T21:33:08Z",
+      "analysis": {
+        "state": "exploitable",
+        "response": [
+          "update"
+        ],
+        "firstIssued": "2026-11-05T09:39:42Z",
+        "lastUpdated": "2026-11-05T09:39:42Z"
+      },
+      "affects": [
+        {
+          "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102276",
+      "source": {
+        "name": "GitHub Advisories",
+        "url": "https://github.com/advisories/GHSA-6j4f-fj2g-mc7p"
+      },
+      "description": "brace-expansion: DoS via uncontrolled recursion in parseCommaParts causing stack exhaustion",
+      "recommendation": "Upgrade package to version greater than or equal to 2.1.5",
+      "published": "2026-09-29T23:44:58Z",
+      "analysis": {
+        "state": "exploitable",
+        "response": [
+          "update"
+        ],
+        "firstIssued": "2026-11-05T09:39:42Z",
+        "lastUpdated": "2026-11-05T09:39:42Z"
+      },
+      "affects": [
+        {
+          "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102278",
+      "source": {
+        "name": "GitHub Advisories",
+        "url": "https://github.com/advisories/GHSA-qhr7-859c-m2p7"
+      },
+      "description": "brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion",
+      "recommendation": "Upgrade package to version greater than or equal to 2.1.6",
+      "published": "2026-09-29T23:45:17Z",
+      "analysis": {
+        "state": "exploitable",
+        "response": [
+          "update"
+        ],
+        "firstIssued": "2026-11-05T09:39:42Z",
+        "lastUpdated": "2026-11-05T09:39:42Z"
+      },
+      "affects": [
+        {
+          "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-102277",
+      "source": {
+        "name": "GitHub Advisories",
+        "url": "https://github.com/advisories/GHSA-q2hr-2g5m-vwhr"
+      },
+      "description": "brace-expansion: Quadratic-time expansion of the \u0060{a},b}\u0060 rewrite causes CPU denial of service",
+      "recommendation": "Upgrade package to version greater than or equal to 2.1.7",
+      "published": "2026-09-29T23:45:39Z",
+      "analysis": {
+        "state": "exploitable",
+        "response": [
+          "update"
+        ],
+        "firstIssued": "2026-11-05T09:39:42Z",
+        "lastUpdated": "2026-11-05T09:39:42Z"
+      },
+      "affects": [
+        {
+          "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-111181",
+      "source": {
+        "name": "GitHub Advisories",
+        "url": "https://github.com/advisories/GHSA-27r3-jxmh-p828"
+      },
+      "description": "body-parser vulnerable to Denial of Service via trailing bytes after a compressed request body",
+      "recommendation": "Upgrade package to version greater than or equal to 1.20.9",
+      "published": "2026-10-23T20:53:11Z",
+      "analysis": {
+        "state": "exploitable",
+        "response": [
+          "update"
+        ],
+        "firstIssued": "2026-11-05T09:39:42Z",
+        "lastUpdated": "2026-11-05T09:39:42Z"
+      },
+      "affects": [
+        {
+          "ref": "CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6"
+        }
+      ]
+    }
+  ]
+}

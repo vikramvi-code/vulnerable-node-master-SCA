@@ -1,0 +1,3235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" serialNumber="urn:uuid:cfb338b5-d3f2-4c5d-a034-587a7e4662ad" version="1" xmlns="http://cyclonedx.org/schema/bom/1.7">
+  <metadata>
+    <timestamp>2026-11-05T09:39:17Z</timestamp>
+    <tools>
+      <components>
+        <component type="application">
+          <name>HCL AppScan</name>
+        </component>
+      </components>
+    </tools>
+    <authors>
+      <author>
+        <name>Vikram Vijan &lt;vikramvi@hcl-software.com&gt;</name>
+        <email>vikramvi@hcl-software.com</email>
+      </author>
+    </authors>
+    <component type="application" bom-ref="65e11d27-f8dd-470f-ab69-01c4ceee820e">
+      <name>vulnerable-nodejs</name>
+      <version>2.1.0</version>
+    </component>
+    <manufacturer>
+      <name>Innovation Hub</name>
+    </manufacturer>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-xtend-4.0.2">
+      <name>xtend</name>
+      <version>4.0.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/xtend@4.0.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/xtend/v/4.0.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/Raynos/xtend</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0">
+      <name>whatwg-url</name>
+      <version>14.2.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/whatwg-url@14.2.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/whatwg-url/v/14.2.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jsdom/whatwg-url#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-tr46-5.1.1">
+      <name>tr46</name>
+      <version>5.1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/tr46@5.1.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/tr46/v/5.1.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jsdom/tr46#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-webidl-conversions-7.0.0">
+      <name>webidl-conversions</name>
+      <version>7.0.0</version>
+      <licenses>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/webidl-conversions@7.0.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/webidl-conversions/v/7.0.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jsdom/webidl-conversions#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-vary-1.1.2">
+      <name>vary</name>
+      <version>1.1.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/vary@1.1.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/vary/v/1.1.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/vary#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-utils-merge-1.0.1">
+      <name>utils-merge</name>
+      <version>1.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/utils-merge@1.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/utils-merge/v/1.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jaredhanson/utils-merge#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0">
+      <name>unpipe</name>
+      <version>1.0.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/unpipe@1.0.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/unpipe/v/1.0.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/stream-utils/unpipe</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-uid-safe-2.1.5">
+      <name>uid-safe</name>
+      <version>2.1.5</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/uid-safe@2.1.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/uid-safe/v/2.1.5</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/crypto-utils/uid-safe#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-random-bytes-1.0.0">
+      <name>random-bytes</name>
+      <version>1.0.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/random-bytes@1.0.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/random-bytes/v/1.0.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/crypto-utils/random-bytes</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18">
+      <name>type-is</name>
+      <version>1.6.18</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/type-is@1.6.18</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/type-is/v/1.6.18</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/type-is#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-media-typer-0.3.0">
+      <name>media-typer</name>
+      <version>0.3.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/media-typer@0.3.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/media-typer/v/0.3.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/media-typer#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35">
+      <name>mime-types</name>
+      <version>2.1.35</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/mime-types@2.1.35</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/mime-types/v/2.1.35</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/mime-types#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-punycode-2.3.1">
+      <name>punycode</name>
+      <version>2.3.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/punycode@2.3.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/punycode/v/2.3.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://mths.be/punycode</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-toidentifier-1.0.1">
+      <name>toidentifier</name>
+      <version>1.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/toidentifier@1.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/toidentifier/v/1.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/component/toidentifier#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2">
+      <name>statuses</name>
+      <version>2.0.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/statuses@2.0.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/statuses/v/2.0.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/statuses#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-split2-4.2.0">
+      <name>split2</name>
+      <version>4.2.0</version>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/split2@4.2.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/split2/v/4.2.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/mcollina/split2#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-sparse-bitfield-3.0.3">
+      <name>sparse-bitfield</name>
+      <version>3.0.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/sparse-bitfield@3.0.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/sparse-bitfield/v/3.0.3</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/mafintosh/sparse-bitfield</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-memory-pager-1.5.0">
+      <name>memory-pager</name>
+      <version>1.5.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/memory-pager@1.5.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/memory-pager/v/1.5.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/mafintosh/memory-pager</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2">
+      <name>side-channel-weakmap</name>
+      <version>1.0.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/side-channel-weakmap@1.0.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/side-channel-weakmap/v/1.0.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ljharb/side-channel-weakmap#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4">
+      <name>call-bound</name>
+      <version>1.0.4</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/call-bound@1.0.4</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/call-bound/v/1.0.4</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ljharb/call-bound#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0">
+      <name>es-errors</name>
+      <version>1.3.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/es-errors@1.3.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/es-errors/v/1.3.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ljharb/es-errors#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0">
+      <name>get-intrinsic</name>
+      <version>1.3.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/get-intrinsic@1.3.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/get-intrinsic/v/1.3.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ljharb/get-intrinsic#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4">
+      <name>object-inspect</name>
+      <version>1.13.4</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/object-inspect@1.13.4</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/object-inspect/v/1.13.4</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/inspect-js/object-inspect</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1">
+      <name>side-channel-map</name>
+      <version>1.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/side-channel-map@1.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/side-channel-map/v/1.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ljharb/side-channel-map#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1">
+      <name>side-channel-list</name>
+      <version>1.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/side-channel-list@1.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/side-channel-list/v/1.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ljharb/side-channel-list#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1">
+      <name>side-channel</name>
+      <version>1.1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/side-channel@1.1.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/side-channel/v/1.1.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ljharb/side-channel#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0">
+      <name>setprototypeof</name>
+      <version>1.2.0</version>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/setprototypeof@1.2.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/setprototypeof/v/1.2.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/wesleytodd/setprototypeof</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3">
+      <name>serve-static</name>
+      <version>1.16.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/serve-static@1.16.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/serve-static/v/1.16.3</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/expressjs/serve-static#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0">
+      <name>encodeurl</name>
+      <version>2.0.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/encodeurl@2.0.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/encodeurl/v/2.0.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/pillarjs/encodeurl#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3">
+      <name>escape-html</name>
+      <version>1.0.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/escape-html@1.0.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/escape-html/v/1.0.3</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/component/escape-html</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3">
+      <name>parseurl</name>
+      <version>1.3.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/parseurl@1.3.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/parseurl/v/1.3.3</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/pillarjs/parseurl#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2">
+      <name>send</name>
+      <version>0.19.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/send@0.19.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/send/v/0.19.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/pillarjs/send#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9">
+      <name>debug</name>
+      <version>2.6.9</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/debug@2.6.9</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/debug/v/2.6.9</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/debug-js/debug#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0">
+      <name>depd</name>
+      <version>2.0.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/depd@2.0.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/depd/v/2.0.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/dougwilson/nodejs-depd#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0">
+      <name>destroy</name>
+      <version>1.2.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/destroy@1.2.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/destroy/v/1.2.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/stream-utils/destroy#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1">
+      <name>etag</name>
+      <version>1.8.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/etag@1.8.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/etag/v/1.8.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/etag#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2">
+      <name>fresh</name>
+      <version>0.5.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/fresh@0.5.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/fresh/v/0.5.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/fresh#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1">
+      <name>http-errors</name>
+      <version>2.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/http-errors@2.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/http-errors/v/2.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/http-errors#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-1.6.0">
+      <name>mime</name>
+      <version>1.6.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/mime@1.6.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/mime/v/1.6.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/broofa/mime#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3">
+      <name>ms</name>
+      <version>2.1.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/ms@2.1.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/ms/v/2.1.3</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/vercel/ms#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1">
+      <name>on-finished</name>
+      <version>2.4.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/on-finished@2.4.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/on-finished/v/2.4.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/on-finished#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1">
+      <name>range-parser</name>
+      <version>1.2.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/range-parser@1.2.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/range-parser/v/1.2.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/range-parser#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safer-buffer-2.1.2">
+      <name>safer-buffer</name>
+      <version>2.1.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/safer-buffer@2.1.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/safer-buffer/v/2.1.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ChALkeR/safer-buffer#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3">
+      <name>raw-body</name>
+      <version>2.5.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/raw-body@2.5.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/raw-body/v/2.5.3</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/stream-utils/raw-body#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2">
+      <name>bytes</name>
+      <version>3.1.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/bytes@3.1.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/bytes/v/3.1.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/visionmedia/bytes.js#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24">
+      <name>iconv-lite</name>
+      <version>0.4.24</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/iconv-lite@0.4.24</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/iconv-lite/v/0.4.24</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ashtuchkin/iconv-lite</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0">
+      <name>qs</name>
+      <version>6.16.0</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/qs@6.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/qs/v/6.16.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ljharb/qs</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1">
+      <name>es-define-property</name>
+      <version>1.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/es-define-property@1.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/es-define-property/v/1.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ljharb/es-define-property#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7">
+      <name>proxy-addr</name>
+      <version>2.0.7</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/proxy-addr@2.0.7</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/proxy-addr/v/2.0.7</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/proxy-addr#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-forwarded-0.2.0">
+      <name>forwarded</name>
+      <version>0.2.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/forwarded@0.2.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/forwarded/v/0.2.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/forwarded#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ipaddr.js-1.9.1">
+      <name>ipaddr.js</name>
+      <version>1.9.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/ipaddr.js@1.9.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/ipaddr.js/v/1.9.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/whitequark/ipaddr.js#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-interval-1.2.0">
+      <name>postgres-interval</name>
+      <version>1.2.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/postgres-interval@1.2.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/postgres-interval/v/1.2.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/bendrucker/postgres-interval#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-date-1.0.7">
+      <name>postgres-date</name>
+      <version>1.0.7</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/postgres-date@1.0.7</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/postgres-date/v/1.0.7</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/bendrucker/postgres-date#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-bytea-1.0.1">
+      <name>postgres-bytea</name>
+      <version>1.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/postgres-bytea@1.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/postgres-bytea/v/1.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/bendrucker/postgres-bytea#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-array-2.0.0">
+      <name>postgres-array</name>
+      <version>2.0.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/postgres-array@2.0.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/postgres-array/v/2.0.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/bendrucker/postgres-array#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-picocolors-1.1.1">
+      <name>picocolors</name>
+      <version>1.1.1</version>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/picocolors@1.1.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/picocolors/v/1.1.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/alexeyraspopov/picocolors#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pgpass-1.0.5">
+      <name>pgpass</name>
+      <version>1.0.5</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/pgpass@1.0.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/pgpass/v/1.0.5</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/hoegaarden/pgpass#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0">
+      <name>pg-types</name>
+      <version>2.2.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/pg-types@2.2.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/pg-types/v/2.2.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/brianc/node-pg-types</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-int8-1.0.1">
+      <name>pg-int8</name>
+      <version>1.0.1</version>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/pg-int8@1.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/pg-int8/v/1.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/charmander/pg-int8#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-protocol-1.16.0">
+      <name>pg-protocol</name>
+      <version>1.16.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/pg-protocol@1.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/pg-protocol/v/1.16.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/brianc/node-postgres#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-pool-3.14.0">
+      <name>pg-pool</name>
+      <version>3.14.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/pg-pool@3.14.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/pg-pool/v/3.14.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/brianc/node-pg-pool#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-connection-string-2.14.0">
+      <name>pg-connection-string</name>
+      <version>2.14.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/pg-connection-string@2.14.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/pg-connection-string/v/2.14.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/brianc/node-postgres/tree/master/packages/pg-connection-string</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-cloudflare-1.4.0">
+      <name>pg-cloudflare</name>
+      <version>1.4.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/pg-cloudflare@1.4.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/pg-cloudflare/v/1.4.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/brianc/node-postgres#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0">
+      <name>pg</name>
+      <version>8.23.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/pg@8.23.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/pg/v/8.23.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/brianc/node-postgres</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-path-to-regexp-0.1.13">
+      <name>path-to-regexp</name>
+      <version>0.1.13</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/path-to-regexp@0.1.13</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/path-to-regexp/v/0.1.13</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/pillarjs/path-to-regexp#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0">
+      <name>on-headers</name>
+      <version>1.1.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/on-headers@1.1.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/on-headers/v/1.1.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/on-headers#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ee-first-1.1.1">
+      <name>ee-first</name>
+      <version>1.1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/ee-first@1.1.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/ee-first/v/1.1.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jonathanong/ee-first</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-negotiator-0.6.3">
+      <name>negotiator</name>
+      <version>0.6.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/negotiator@0.6.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/negotiator/v/0.6.3</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/negotiator#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0">
+      <name>morgan</name>
+      <version>1.12.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/morgan@1.12.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/morgan/v/1.12.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/expressjs/morgan#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-basic-auth-2.0.1">
+      <name>basic-auth</name>
+      <version>2.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/basic-auth@2.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/basic-auth/v/2.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/basic-auth#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2">
+      <name>mongodb-connection-string-url</name>
+      <version>3.0.2</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/mongodb-connection-string-url@3.0.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/mongodb-connection-string-url/v/3.0.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/mongodb-js/mongodb-connection-string-url</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@types-whatwg-url-11.0.5">
+      <name>@types/whatwg-url</name>
+      <version>11.0.5</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40types/whatwg-url@11.0.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/@types/whatwg-url/v/11.0.5</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/whatwg-url</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0">
+      <name>mongodb</name>
+      <version>6.21.0</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/mongodb@6.21.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/mongodb/v/6.21.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/mongodb/node-mongodb-native</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@mongodb-js-saslprep-1.5.0">
+      <name>@mongodb-js/saslprep</name>
+      <version>1.5.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40mongodb-js/saslprep@1.5.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/@mongodb-js/saslprep/v/1.5.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/mongodb-js/devtools-shared/tree/main/packages/saslprep</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bson-6.10.4">
+      <name>bson</name>
+      <version>6.10.4</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/bson@6.10.4</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/bson/v/6.10.4</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/mongodb/js-bson#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-minimatch-5.1.9">
+      <name>minimatch</name>
+      <version>5.1.9</version>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/minimatch@5.1.9</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/minimatch/v/5.1.9</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/isaacs/minimatch#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4">
+      <name>brace-expansion</name>
+      <version>2.1.4</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/brace-expansion@2.1.4</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/brace-expansion/v/2.1.4</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/juliangruber/brace-expansion#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-db-1.52.0">
+      <name>mime-db</name>
+      <version>1.52.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/mime-db@1.52.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/mime-db/v/1.52.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/mime-db#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-methods-1.1.2">
+      <name>methods</name>
+      <version>1.1.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/methods@1.1.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/methods/v/1.1.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/methods</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-merge-descriptors-1.0.3">
+      <name>merge-descriptors</name>
+      <version>1.0.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/merge-descriptors@1.0.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/merge-descriptors/v/1.0.3</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/sindresorhus/merge-descriptors#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-math-intrinsics-1.1.0">
+      <name>math-intrinsics</name>
+      <version>1.1.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/math-intrinsics@1.1.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/math-intrinsics/v/1.1.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/es-shims/math-intrinsics#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.once-4.1.1">
+      <name>lodash.once</name>
+      <version>4.1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/lodash.once@4.1.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/lodash.once/v/4.1.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://lodash.com/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isstring-4.0.1">
+      <name>lodash.isstring</name>
+      <version>4.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/lodash.isstring@4.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/lodash.isstring/v/4.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://lodash.com/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isplainobject-4.0.6">
+      <name>lodash.isplainobject</name>
+      <version>4.0.6</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/lodash.isplainobject@4.0.6</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/lodash.isplainobject/v/4.0.6</url>
+        </reference>
+        <reference type="website">
+          <url>https://lodash.com/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isnumber-3.0.3">
+      <name>lodash.isnumber</name>
+      <version>3.0.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/lodash.isnumber@3.0.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/lodash.isnumber/v/3.0.3</url>
+        </reference>
+        <reference type="website">
+          <url>https://lodash.com/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isinteger-4.0.4">
+      <name>lodash.isinteger</name>
+      <version>4.0.4</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/lodash.isinteger@4.0.4</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/lodash.isinteger/v/4.0.4</url>
+        </reference>
+        <reference type="website">
+          <url>https://lodash.com/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isboolean-3.0.3">
+      <name>lodash.isboolean</name>
+      <version>3.0.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/lodash.isboolean@3.0.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/lodash.isboolean/v/3.0.3</url>
+        </reference>
+        <reference type="website">
+          <url>https://lodash.com/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.includes-4.3.0">
+      <name>lodash.includes</name>
+      <version>4.3.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/lodash.includes@4.3.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/lodash.includes/v/4.3.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://lodash.com/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1">
+      <name>jws</name>
+      <version>4.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/jws@4.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/jws/v/4.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/brianloveswords/node-jws#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1">
+      <name>jwa</name>
+      <version>2.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/jwa@2.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/jwa/v/2.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/brianloveswords/node-jwa#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1">
+      <name>safe-buffer</name>
+      <version>5.2.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/safe-buffer@5.2.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/safe-buffer/v/5.2.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/feross/safe-buffer</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-buffer-equal-constant-time-1.0.1">
+      <name>buffer-equal-constant-time</name>
+      <version>1.0.1</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/buffer-equal-constant-time@1.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/buffer-equal-constant-time/v/1.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/goinstant/buffer-equal-constant-time</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ecdsa-sig-formatter-1.0.11">
+      <name>ecdsa-sig-formatter</name>
+      <version>1.0.11</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/ecdsa-sig-formatter@1.0.11</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/ecdsa-sig-formatter/v/1.0.11</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/Brightspace/node-ecdsa-sig-formatter#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-semver-7.8.5">
+      <name>semver</name>
+      <version>7.8.5</version>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/semver@7.8.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/semver/v/7.8.5</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/npm/node-semver#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3">
+      <name>jsonwebtoken</name>
+      <version>9.0.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/jsonwebtoken@9.0.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/jsonwebtoken/v/9.0.3</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/auth0/node-jsonwebtoken#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+        <property name="appscan:cryptographic-component">true</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4">
+      <name>jake</name>
+      <version>10.9.4</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/jake@10.9.4</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/jake/v/10.9.4</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jakejs/jake#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-async-3.2.6">
+      <name>async</name>
+      <version>3.2.6</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/async@3.2.6</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/async/v/3.2.6</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/caolan/async#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-filelist-1.0.6">
+      <name>filelist</name>
+      <version>1.0.6</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/filelist@1.0.6</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/filelist/v/1.0.6</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/mde/filelist</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-inherits-2.0.4">
+      <name>inherits</name>
+      <version>2.0.4</version>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/inherits@2.0.4</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/inherits/v/2.0.4</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/isaacs/inherits#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-hasown-2.0.4">
+      <name>hasown</name>
+      <version>2.0.4</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/hasown@2.0.4</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/hasown/v/2.0.4</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/inspect-js/hasOwn#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2">
+      <name>function-bind</name>
+      <version>1.1.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/function-bind@1.1.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/function-bind/v/1.1.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/Raynos/function-bind</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-has-symbols-1.1.0">
+      <name>has-symbols</name>
+      <version>1.1.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/has-symbols@1.1.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/has-symbols/v/1.1.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ljharb/has-symbols#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0">
+      <name>gopd</name>
+      <version>1.2.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/gopd@1.2.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/gopd/v/1.2.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ljharb/gopd#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1">
+      <name>get-proto</name>
+      <version>1.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/get-proto@1.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/get-proto/v/1.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ljharb/get-proto#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1">
+      <name>dunder-proto</name>
+      <version>1.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/dunder-proto@1.0.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/dunder-proto/v/1.0.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/es-shims/dunder-proto#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2">
+      <name>es-object-atoms</name>
+      <version>1.1.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/es-object-atoms@1.1.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/es-object-atoms/v/1.1.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ljharb/es-object-atoms#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2">
+      <name>call-bind-apply-helpers</name>
+      <version>1.0.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/call-bind-apply-helpers@1.0.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/call-bind-apply-helpers/v/1.0.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/ljharb/call-bind-apply-helpers#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2">
+      <name>finalhandler</name>
+      <version>1.3.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/finalhandler@1.3.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/finalhandler/v/1.3.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/pillarjs/finalhandler#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0">
+      <name>express-session</name>
+      <version>1.19.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/express-session@1.19.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/express-session/v/1.19.0</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/expressjs/session#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2">
+      <name>cookie</name>
+      <version>0.7.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/cookie@0.7.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/cookie/v/0.7.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/cookie#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7">
+      <name>cookie-signature</name>
+      <version>1.0.7</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/cookie-signature@1.0.7</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/cookie-signature/v/1.0.7</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/visionmedia/node-cookie-signature#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2">
+      <name>express</name>
+      <version>4.22.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/express@4.22.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/express/v/4.22.2</url>
+        </reference>
+        <reference type="website">
+          <url>http://expressjs.com/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8">
+      <name>accepts</name>
+      <version>1.3.8</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/accepts@1.3.8</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/accepts/v/1.3.8</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/accepts#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-array-flatten-1.1.1">
+      <name>array-flatten</name>
+      <version>1.1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/array-flatten@1.1.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/array-flatten/v/1.1.1</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/blakeembrey/array-flatten</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6">
+      <name>body-parser</name>
+      <version>1.20.6</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/body-parser@1.20.6</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/body-parser/v/1.20.6</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/expressjs/body-parser#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-disposition-0.5.4">
+      <name>content-disposition</name>
+      <version>0.5.4</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/content-disposition@0.5.4</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/content-disposition/v/0.5.4</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/content-disposition#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5">
+      <name>content-type</name>
+      <version>1.0.5</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/content-type@1.0.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/content-type/v/1.0.5</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jshttp/content-type#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ejs-3.1.10">
+      <name>ejs</name>
+      <version>3.1.10</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/ejs@3.1.10</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/ejs/v/3.1.10</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/mde/ejs</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-parser-1.4.7">
+      <name>cookie-parser</name>
+      <version>1.4.7</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/cookie-parser@1.4.7</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/cookie-parser/v/1.4.7</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/expressjs/cookie-parser#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-balanced-match-1.0.2">
+      <name>balanced-match</name>
+      <version>1.0.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/balanced-match@1.0.2</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/balanced-match/v/1.0.2</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/juliangruber/balanced-match#readme</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@types-webidl-conversions-7.0.3">
+      <name>@types/webidl-conversions</name>
+      <version>7.0.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40types/webidl-conversions@7.0.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.npmjs.com/package/@types/webidl-conversions/v/7.0.3</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/webidl-conversions</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="hcl:appscan:technologyType">JS</property>
+        <property name="hcl:appscan:packageFileName">vulnerable-node-master/package-lock.json</property>
+      </properties>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="65e11d27-f8dd-470f-ab69-01c4ceee820e">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ejs-3.1.10" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-parser-1.4.7" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-xtend-4.0.2" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-tr46-5.1.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-webidl-conversions-7.0.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-tr46-5.1.1">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-punycode-2.3.1" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-webidl-conversions-7.0.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-vary-1.1.2" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-utils-merge-1.0.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-uid-safe-2.1.5">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-random-bytes-1.0.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-random-bytes-1.0.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-media-typer-0.3.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-media-typer-0.3.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-db-1.52.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-punycode-2.3.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-toidentifier-1.0.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-split2-4.2.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-sparse-bitfield-3.0.3">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-memory-pager-1.5.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-memory-pager-1.5.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-has-symbols-1.1.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-hasown-2.0.4" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-math-intrinsics-1.1.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-1.6.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-inherits-2.0.4" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-toidentifier-1.0.1" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-1.6.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ee-first-1.1.1" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safer-buffer-2.1.2" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safer-buffer-2.1.2" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-forwarded-0.2.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ipaddr.js-1.9.1" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-forwarded-0.2.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ipaddr.js-1.9.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-interval-1.2.0">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-xtend-4.0.2" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-date-1.0.7" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-bytea-1.0.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-array-2.0.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-picocolors-1.1.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pgpass-1.0.5">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-split2-4.2.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-int8-1.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-array-2.0.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-bytea-1.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-date-1.0.7" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-interval-1.2.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-int8-1.0.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-protocol-1.16.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-pool-3.14.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-connection-string-2.14.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-cloudflare-1.4.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-connection-string-2.14.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-pool-3.14.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-protocol-1.16.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pgpass-1.0.5" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-path-to-regexp-0.1.13" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ee-first-1.1.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-negotiator-0.6.3" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-basic-auth-2.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-basic-auth-2.0.1">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@types-whatwg-url-11.0.5" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@types-whatwg-url-11.0.5">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@types-webidl-conversions-7.0.3" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@mongodb-js-saslprep-1.5.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bson-6.10.4" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@mongodb-js-saslprep-1.5.0">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-sparse-bitfield-3.0.3" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bson-6.10.4" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-minimatch-5.1.9">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-balanced-match-1.0.2" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-db-1.52.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-methods-1.1.2" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-merge-descriptors-1.0.3" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-math-intrinsics-1.1.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.once-4.1.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isstring-4.0.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isplainobject-4.0.6" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isnumber-3.0.3" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isinteger-4.0.4" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isboolean-3.0.3" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.includes-4.3.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-buffer-equal-constant-time-1.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ecdsa-sig-formatter-1.0.11" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-buffer-equal-constant-time-1.0.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ecdsa-sig-formatter-1.0.11">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-semver-7.8.5" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.includes-4.3.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isboolean-3.0.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isinteger-4.0.4" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isnumber-3.0.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isplainobject-4.0.6" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isstring-4.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.once-4.1.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-semver-7.8.5" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-async-3.2.6" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-filelist-1.0.6" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-picocolors-1.1.1" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-async-3.2.6" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-filelist-1.0.6">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-minimatch-5.1.9" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-inherits-2.0.4" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-hasown-2.0.4">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-has-symbols-1.1.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-uid-safe-2.1.5" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-array-flatten-1.1.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-disposition-0.5.4" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-merge-descriptors-1.0.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-methods-1.1.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-path-to-regexp-0.1.13" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-utils-merge-1.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-vary-1.1.2" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-negotiator-0.6.3" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-array-flatten-1.1.1" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-disposition-0.5.4">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ejs-3.1.10">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-parser-1.4.7">
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2" />
+      <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7" />
+    </dependency>
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-balanced-match-1.0.2" />
+    <dependency ref="CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-@types-webidl-conversions-7.0.3" />
+  </dependencies>
+  <vulnerabilities>
+    <vulnerability>
+      <id>CVE-2026-110816</id>
+      <source>
+        <name>GitHub Advisories</name>
+        <url>https://github.com/advisories/GHSA-6pq8-jhm2-2vcw</url>
+      </source>
+      <description>qs : qs.stringify with arrayFormat 'comma' throws an uncaught TypeError on array elements carrying a non-callable own toString (DoS)</description>
+      <recommendation>Upgrade package to version greater than or equal to 6.16.1</recommendation>
+      <published>2026-10-27T16:10:55Z</published>
+      <analysis>
+        <state>exploitable</state>
+        <justification>Null</justification>
+        <responses>
+          <response>update</response>
+        </responses>
+        <firstIssued>2026-11-05T09:39:18.2102329Z</firstIssued>
+        <lastUpdated>2026-11-05T09:39:18.210233Z</lastUpdated>
+      </analysis>
+      <affects>
+        <target>
+          <ref>CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2026-90711</id>
+      <source>
+        <name>GitHub Advisories</name>
+        <url>https://github.com/advisories/GHSA-jqcg-44mw-7w3h</url>
+      </source>
+      <description>proxy-addr vulnerable to IP spoofing via IPv4-mapped IPv6 trust subnet</description>
+      <recommendation>Upgrade package to version greater than or equal to 2.0.8</recommendation>
+      <published>2026-10-05T23:30:26Z</published>
+      <analysis>
+        <state>exploitable</state>
+        <justification>Null</justification>
+        <responses>
+          <response>update</response>
+        </responses>
+        <firstIssued>2026-11-05T09:39:18.2102346Z</firstIssued>
+        <lastUpdated>2026-11-05T09:39:18.2102346Z</lastUpdated>
+      </analysis>
+      <affects>
+        <target>
+          <ref>CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2026-87859</id>
+      <source>
+        <name>GitHub Advisories</name>
+        <url>https://github.com/advisories/GHSA-9f6g-j8ch-79g4</url>
+      </source>
+      <description>morgan vulnerable to Log Injection via unescaped double quote in quoted log fields</description>
+      <recommendation>Upgrade package to version greater than or equal to 1.12.1</recommendation>
+      <published>2026-09-28T21:33:08Z</published>
+      <analysis>
+        <state>exploitable</state>
+        <justification>Null</justification>
+        <responses>
+          <response>update</response>
+        </responses>
+        <firstIssued>2026-11-05T09:39:18.2102353Z</firstIssued>
+        <lastUpdated>2026-11-05T09:39:18.2102353Z</lastUpdated>
+      </analysis>
+      <affects>
+        <target>
+          <ref>CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2026-102276</id>
+      <source>
+        <name>GitHub Advisories</name>
+        <url>https://github.com/advisories/GHSA-6j4f-fj2g-mc7p</url>
+      </source>
+      <description>brace-expansion: DoS via uncontrolled recursion in parseCommaParts causing stack exhaustion</description>
+      <recommendation>Upgrade package to version greater than or equal to 2.1.5</recommendation>
+      <published>2026-09-29T23:44:58Z</published>
+      <analysis>
+        <state>exploitable</state>
+        <justification>Null</justification>
+        <responses>
+          <response>update</response>
+        </responses>
+        <firstIssued>2026-11-05T09:39:18.2102359Z</firstIssued>
+        <lastUpdated>2026-11-05T09:39:18.2102359Z</lastUpdated>
+      </analysis>
+      <affects>
+        <target>
+          <ref>CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2026-102278</id>
+      <source>
+        <name>GitHub Advisories</name>
+        <url>https://github.com/advisories/GHSA-qhr7-859c-m2p7</url>
+      </source>
+      <description>brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion</description>
+      <recommendation>Upgrade package to version greater than or equal to 2.1.6</recommendation>
+      <published>2026-09-29T23:45:17Z</published>
+      <analysis>
+        <state>exploitable</state>
+        <justification>Null</justification>
+        <responses>
+          <response>update</response>
+        </responses>
+        <firstIssued>2026-11-05T09:39:18.2102364Z</firstIssued>
+        <lastUpdated>2026-11-05T09:39:18.2102364Z</lastUpdated>
+      </analysis>
+      <affects>
+        <target>
+          <ref>CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2026-102277</id>
+      <source>
+        <name>GitHub Advisories</name>
+        <url>https://github.com/advisories/GHSA-q2hr-2g5m-vwhr</url>
+      </source>
+      <description>brace-expansion: Quadratic-time expansion of the `{a},b}` rewrite causes CPU denial of service</description>
+      <recommendation>Upgrade package to version greater than or equal to 2.1.7</recommendation>
+      <published>2026-09-29T23:45:39Z</published>
+      <analysis>
+        <state>exploitable</state>
+        <justification>Null</justification>
+        <responses>
+          <response>update</response>
+        </responses>
+        <firstIssued>2026-11-05T09:39:18.210237Z</firstIssued>
+        <lastUpdated>2026-11-05T09:39:18.2102371Z</lastUpdated>
+      </analysis>
+      <affects>
+        <target>
+          <ref>CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2026-111181</id>
+      <source>
+        <name>GitHub Advisories</name>
+        <url>https://github.com/advisories/GHSA-27r3-jxmh-p828</url>
+      </source>
+      <description>body-parser vulnerable to Denial of Service via trailing bytes after a compressed request body</description>
+      <recommendation>Upgrade package to version greater than or equal to 1.20.9</recommendation>
+      <published>2026-10-23T20:53:11Z</published>
+      <analysis>
+        <state>exploitable</state>
+        <justification>Null</justification>
+        <responses>
+          <response>update</response>
+        </responses>
+        <firstIssued>2026-11-05T09:39:18.2102376Z</firstIssued>
+        <lastUpdated>2026-11-05T09:39:18.2102377Z</lastUpdated>
+      </analysis>
+      <affects>
+        <target>
+          <ref>CDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6</ref>
+        </target>
+      </affects>
+    </vulnerability>
+  </vulnerabilities>
+</bom>

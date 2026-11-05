@@ -1,0 +1,2439 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+DocumentNamespace: https://HCL-Software.com/AppScan/spdx/doc/65e11d27-f8dd-470f-ab69-01c4ceee820e
+DocumentName: SPDX report for vulnerable-nodejs
+SPDXID: SPDXRef-DOCUMENT
+## Creation Information
+Creator: Organization:Innovation Hub
+Creator: Person:Vikram Vijan <vikramvi@hcl-software.com>
+Creator: Tool: HCL AppScan
+Created: 2026-11-05T09:39:00Z
+
+## Relationships
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-js-saslprep-1.5.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-types-webidl-conversions-7.0.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-types-whatwg-url-11.0.5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-array-flatten-1.1.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-async-3.2.6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-balanced-match-1.0.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-basic-auth-2.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bson-6.10.4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-buffer-equal-constant-time-1.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-disposition-0.5.4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-parser-1.4.7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ecdsa-sig-formatter-1.0.11
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ee-first-1.1.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ejs-3.1.10
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-filelist-1.0.6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-forwarded-0.2.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-has-symbols-1.1.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-hasown-2.0.4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-inherits-2.0.4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ipaddr.js-1.9.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.includes-4.3.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isboolean-3.0.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isinteger-4.0.4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isnumber-3.0.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isplainobject-4.0.6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isstring-4.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.once-4.1.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-math-intrinsics-1.1.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-media-typer-0.3.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-memory-pager-1.5.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-merge-descriptors-1.0.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-methods-1.1.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-1.6.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-db-1.52.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-minimatch-5.1.9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-negotiator-0.6.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-path-to-regexp-0.1.13
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-cloudflare-1.4.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-connection-string-2.14.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-int8-1.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-pool-3.14.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-protocol-1.16.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pgpass-1.0.5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-picocolors-1.1.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-array-2.0.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-bytea-1.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-date-1.0.7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-interval-1.2.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-punycode-2.3.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-random-bytes-1.0.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safer-buffer-2.1.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-semver-7.8.5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-sparse-bitfield-3.0.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-split2-4.2.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-toidentifier-1.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-tr46-5.1.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-uid-safe-2.1.5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-utils-merge-1.0.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-vary-1.1.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-webidl-conversions-7.0.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-xtend-4.0.2
+
+## Package Information
+PackageName: xtend
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-xtend-4.0.2
+PackageVersion: 4.0.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/xtend/v/4.0.2
+PackageHomePage: https://github.com/Raynos/xtend
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/xtend@4.0.2
+
+## Package Information
+PackageName: whatwg-url
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0
+PackageVersion: 14.2.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/whatwg-url/v/14.2.0
+PackageHomePage: https://github.com/jsdom/whatwg-url#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-tr46-5.1.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-webidl-conversions-7.0.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/whatwg-url@14.2.0
+
+## Package Information
+PackageName: tr46
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-tr46-5.1.1
+PackageVersion: 5.1.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/tr46/v/5.1.1
+PackageHomePage: https://github.com/jsdom/tr46#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-tr46-5.1.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-punycode-2.3.1
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/tr46@5.1.1
+
+## Package Information
+PackageName: webidl-conversions
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-webidl-conversions-7.0.0
+PackageVersion: 7.0.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/webidl-conversions/v/7.0.0
+PackageHomePage: https://github.com/jsdom/webidl-conversions#readme
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: BSD-2-Clause
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/webidl-conversions@7.0.0
+
+## Package Information
+PackageName: vary
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-vary-1.1.2
+PackageVersion: 1.1.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/vary/v/1.1.2
+PackageHomePage: https://github.com/jshttp/vary#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/vary@1.1.2
+
+## Package Information
+PackageName: utils-merge
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-utils-merge-1.0.1
+PackageVersion: 1.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/utils-merge/v/1.0.1
+PackageHomePage: https://github.com/jaredhanson/utils-merge#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/utils-merge@1.0.1
+
+## Package Information
+PackageName: unpipe
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0
+PackageVersion: 1.0.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/unpipe/v/1.0.0
+PackageHomePage: https://github.com/stream-utils/unpipe
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/unpipe@1.0.0
+
+## Package Information
+PackageName: uid-safe
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-uid-safe-2.1.5
+PackageVersion: 2.1.5
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/uid-safe/v/2.1.5
+PackageHomePage: https://github.com/crypto-utils/uid-safe#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-uid-safe-2.1.5 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-random-bytes-1.0.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/uid-safe@2.1.5
+
+## Package Information
+PackageName: random-bytes
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-random-bytes-1.0.0
+PackageVersion: 1.0.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/random-bytes/v/1.0.0
+PackageHomePage: https://github.com/crypto-utils/random-bytes
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/random-bytes@1.0.0
+
+## Package Information
+PackageName: type-is
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18
+PackageVersion: 1.6.18
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/type-is/v/1.6.18
+PackageHomePage: https://github.com/jshttp/type-is#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-media-typer-0.3.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/type-is@1.6.18
+
+## Package Information
+PackageName: media-typer
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-media-typer-0.3.0
+PackageVersion: 0.3.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/media-typer/v/0.3.0
+PackageHomePage: https://github.com/jshttp/media-typer#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/media-typer@0.3.0
+
+## Package Information
+PackageName: mime-types
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35
+PackageVersion: 2.1.35
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/mime-types/v/2.1.35
+PackageHomePage: https://github.com/jshttp/mime-types#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-db-1.52.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/mime-types@2.1.35
+
+## Package Information
+PackageName: punycode
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-punycode-2.3.1
+PackageVersion: 2.3.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/punycode/v/2.3.1
+PackageHomePage: https://mths.be/punycode
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/punycode@2.3.1
+
+## Package Information
+PackageName: toidentifier
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-toidentifier-1.0.1
+PackageVersion: 1.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/toidentifier/v/1.0.1
+PackageHomePage: https://github.com/component/toidentifier#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/toidentifier@1.0.1
+
+## Package Information
+PackageName: statuses
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2
+PackageVersion: 2.0.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/statuses/v/2.0.2
+PackageHomePage: https://github.com/jshttp/statuses#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/statuses@2.0.2
+
+## Package Information
+PackageName: split2
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-split2-4.2.0
+PackageVersion: 4.2.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/split2/v/4.2.0
+PackageHomePage: https://github.com/mcollina/split2#readme
+PackageLicenseConcluded: ISC
+PackageLicenseDeclared: ISC
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/split2@4.2.0
+
+## Package Information
+PackageName: sparse-bitfield
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-sparse-bitfield-3.0.3
+PackageVersion: 3.0.3
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/sparse-bitfield/v/3.0.3
+PackageHomePage: https://github.com/mafintosh/sparse-bitfield
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-sparse-bitfield-3.0.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-memory-pager-1.5.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/sparse-bitfield@3.0.3
+
+## Package Information
+PackageName: memory-pager
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-memory-pager-1.5.0
+PackageVersion: 1.5.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/memory-pager/v/1.5.0
+PackageHomePage: https://github.com/mafintosh/memory-pager
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/memory-pager@1.5.0
+
+## Package Information
+PackageName: side-channel-weakmap
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2
+PackageVersion: 1.0.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/side-channel-weakmap/v/1.0.2
+PackageHomePage: https://github.com/ljharb/side-channel-weakmap#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/side-channel-weakmap@1.0.2
+
+## Package Information
+PackageName: call-bound
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4
+PackageVersion: 1.0.4
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/call-bound/v/1.0.4
+PackageHomePage: https://github.com/ljharb/call-bound#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/call-bound@1.0.4
+
+## Package Information
+PackageName: es-errors
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0
+PackageVersion: 1.3.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/es-errors/v/1.3.0
+PackageHomePage: https://github.com/ljharb/es-errors#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/es-errors@1.3.0
+
+## Package Information
+PackageName: get-intrinsic
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0
+PackageVersion: 1.3.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/get-intrinsic/v/1.3.0
+PackageHomePage: https://github.com/ljharb/get-intrinsic#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-has-symbols-1.1.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-hasown-2.0.4
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-math-intrinsics-1.1.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/get-intrinsic@1.3.0
+
+## Package Information
+PackageName: object-inspect
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4
+PackageVersion: 1.13.4
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/object-inspect/v/1.13.4
+PackageHomePage: https://github.com/inspect-js/object-inspect
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/object-inspect@1.13.4
+
+## Package Information
+PackageName: side-channel-map
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1
+PackageVersion: 1.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/side-channel-map/v/1.0.1
+PackageHomePage: https://github.com/ljharb/side-channel-map#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bound-1.0.4
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-intrinsic-1.3.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/side-channel-map@1.0.1
+
+## Package Information
+PackageName: side-channel-list
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1
+PackageVersion: 1.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/side-channel-list/v/1.0.1
+PackageHomePage: https://github.com/ljharb/side-channel-list#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/side-channel-list@1.0.1
+
+## Package Information
+PackageName: side-channel
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1
+PackageVersion: 1.1.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/side-channel/v/1.1.1
+PackageHomePage: https://github.com/ljharb/side-channel#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-object-inspect-1.13.4
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-list-1.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-map-1.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-weakmap-1.0.2
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/side-channel@1.1.1
+
+## Package Information
+PackageName: setprototypeof
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0
+PackageVersion: 1.2.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/setprototypeof/v/1.2.0
+PackageHomePage: https://github.com/wesleytodd/setprototypeof
+PackageLicenseConcluded: ISC
+PackageLicenseDeclared: ISC
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/setprototypeof@1.2.0
+
+## Package Information
+PackageName: serve-static
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3
+PackageVersion: 1.16.3
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/serve-static/v/1.16.3
+PackageHomePage: https://github.com/expressjs/serve-static#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/serve-static@1.16.3
+
+## Package Information
+PackageName: encodeurl
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0
+PackageVersion: 2.0.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/encodeurl/v/2.0.0
+PackageHomePage: https://github.com/pillarjs/encodeurl#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/encodeurl@2.0.0
+
+## Package Information
+PackageName: escape-html
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3
+PackageVersion: 1.0.3
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/escape-html/v/1.0.3
+PackageHomePage: https://github.com/component/escape-html
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/escape-html@1.0.3
+
+## Package Information
+PackageName: parseurl
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3
+PackageVersion: 1.3.3
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/parseurl/v/1.3.3
+PackageHomePage: https://github.com/pillarjs/parseurl#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/parseurl@1.3.3
+
+## Package Information
+PackageName: send
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2
+PackageVersion: 0.19.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/send/v/0.19.2
+PackageHomePage: https://github.com/pillarjs/send#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-1.6.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/send@0.19.2
+
+## Package Information
+PackageName: debug
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9
+PackageVersion: 2.6.9
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/debug/v/2.6.9
+PackageHomePage: https://github.com/debug-js/debug#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/debug@2.6.9
+
+## Package Information
+PackageName: depd
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0
+PackageVersion: 2.0.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/depd/v/2.0.0
+PackageHomePage: https://github.com/dougwilson/nodejs-depd#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/depd@2.0.0
+
+## Package Information
+PackageName: destroy
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0
+PackageVersion: 1.2.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/destroy/v/1.2.0
+PackageHomePage: https://github.com/stream-utils/destroy#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/destroy@1.2.0
+
+## Package Information
+PackageName: etag
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1
+PackageVersion: 1.8.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/etag/v/1.8.1
+PackageHomePage: https://github.com/jshttp/etag#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/etag@1.8.1
+
+## Package Information
+PackageName: fresh
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2
+PackageVersion: 0.5.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/fresh/v/0.5.2
+PackageHomePage: https://github.com/jshttp/fresh#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/fresh@0.5.2
+
+## Package Information
+PackageName: http-errors
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1
+PackageVersion: 2.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/http-errors/v/2.0.1
+PackageHomePage: https://github.com/jshttp/http-errors#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-inherits-2.0.4
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-toidentifier-1.0.1
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/http-errors@2.0.1
+
+## Package Information
+PackageName: mime
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-1.6.0
+PackageVersion: 1.6.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/mime/v/1.6.0
+PackageHomePage: https://github.com/broofa/mime#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/mime@1.6.0
+
+## Package Information
+PackageName: ms
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3
+PackageVersion: 2.1.3
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/ms/v/2.1.3
+PackageHomePage: https://github.com/vercel/ms#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/ms@2.1.3
+
+## Package Information
+PackageName: on-finished
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1
+PackageVersion: 2.4.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/on-finished/v/2.4.1
+PackageHomePage: https://github.com/jshttp/on-finished#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ee-first-1.1.1
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/on-finished@2.4.1
+
+## Package Information
+PackageName: range-parser
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1
+PackageVersion: 1.2.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/range-parser/v/1.2.1
+PackageHomePage: https://github.com/jshttp/range-parser#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/range-parser@1.2.1
+
+## Package Information
+PackageName: safer-buffer
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safer-buffer-2.1.2
+PackageVersion: 2.1.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/safer-buffer/v/2.1.2
+PackageHomePage: https://github.com/ChALkeR/safer-buffer#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/safer-buffer@2.1.2
+
+## Package Information
+PackageName: raw-body
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3
+PackageVersion: 2.5.3
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/raw-body/v/2.5.3
+PackageHomePage: https://github.com/stream-utils/raw-body#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/raw-body@2.5.3
+
+## Package Information
+PackageName: bytes
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2
+PackageVersion: 3.1.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/bytes/v/3.1.2
+PackageHomePage: https://github.com/visionmedia/bytes.js#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/bytes@3.1.2
+
+## Package Information
+PackageName: iconv-lite
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24
+PackageVersion: 0.4.24
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/iconv-lite/v/0.4.24
+PackageHomePage: https://github.com/ashtuchkin/iconv-lite
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safer-buffer-2.1.2
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/iconv-lite@0.4.24
+
+## Package Information
+PackageName: qs
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0
+PackageVersion: 6.16.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/qs/v/6.16.0
+PackageHomePage: https://github.com/ljharb/qs
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: BSD-3-Clause
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-side-channel-1.1.1
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/qs@6.16.0
+ExternalRef: SECURITY advisory CVE-2026-110816
+
+## Package Information
+PackageName: es-define-property
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-define-property-1.0.1
+PackageVersion: 1.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/es-define-property/v/1.0.1
+PackageHomePage: https://github.com/ljharb/es-define-property#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/es-define-property@1.0.1
+
+## Package Information
+PackageName: proxy-addr
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7
+PackageVersion: 2.0.7
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/proxy-addr/v/2.0.7
+PackageHomePage: https://github.com/jshttp/proxy-addr#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-forwarded-0.2.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ipaddr.js-1.9.1
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/proxy-addr@2.0.7
+ExternalRef: SECURITY advisory CVE-2026-90711
+
+## Package Information
+PackageName: forwarded
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-forwarded-0.2.0
+PackageVersion: 0.2.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/forwarded/v/0.2.0
+PackageHomePage: https://github.com/jshttp/forwarded#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/forwarded@0.2.0
+
+## Package Information
+PackageName: ipaddr.js
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ipaddr.js-1.9.1
+PackageVersion: 1.9.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/ipaddr.js/v/1.9.1
+PackageHomePage: https://github.com/whitequark/ipaddr.js#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/ipaddr.js@1.9.1
+
+## Package Information
+PackageName: postgres-interval
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-interval-1.2.0
+PackageVersion: 1.2.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/postgres-interval/v/1.2.0
+PackageHomePage: https://github.com/bendrucker/postgres-interval#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-interval-1.2.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-xtend-4.0.2
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/postgres-interval@1.2.0
+
+## Package Information
+PackageName: postgres-date
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-date-1.0.7
+PackageVersion: 1.0.7
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/postgres-date/v/1.0.7
+PackageHomePage: https://github.com/bendrucker/postgres-date#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/postgres-date@1.0.7
+
+## Package Information
+PackageName: postgres-bytea
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-bytea-1.0.1
+PackageVersion: 1.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/postgres-bytea/v/1.0.1
+PackageHomePage: https://github.com/bendrucker/postgres-bytea#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/postgres-bytea@1.0.1
+
+## Package Information
+PackageName: postgres-array
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-array-2.0.0
+PackageVersion: 2.0.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/postgres-array/v/2.0.0
+PackageHomePage: https://github.com/bendrucker/postgres-array#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/postgres-array@2.0.0
+
+## Package Information
+PackageName: picocolors
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-picocolors-1.1.1
+PackageVersion: 1.1.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/picocolors/v/1.1.1
+PackageHomePage: https://github.com/alexeyraspopov/picocolors#readme
+PackageLicenseConcluded: ISC
+PackageLicenseDeclared: ISC
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/picocolors@1.1.1
+
+## Package Information
+PackageName: pgpass
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pgpass-1.0.5
+PackageVersion: 1.0.5
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/pgpass/v/1.0.5
+PackageHomePage: https://github.com/hoegaarden/pgpass#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pgpass-1.0.5 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-split2-4.2.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/pgpass@1.0.5
+
+## Package Information
+PackageName: pg-types
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0
+PackageVersion: 2.2.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/pg-types/v/2.2.0
+PackageHomePage: https://github.com/brianc/node-pg-types
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-int8-1.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-array-2.0.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-bytea-1.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-date-1.0.7
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-postgres-interval-1.2.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/pg-types@2.2.0
+
+## Package Information
+PackageName: pg-int8
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-int8-1.0.1
+PackageVersion: 1.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/pg-int8/v/1.0.1
+PackageHomePage: https://github.com/charmander/pg-int8#readme
+PackageLicenseConcluded: ISC
+PackageLicenseDeclared: ISC
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/pg-int8@1.0.1
+
+## Package Information
+PackageName: pg-protocol
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-protocol-1.16.0
+PackageVersion: 1.16.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/pg-protocol/v/1.16.0
+PackageHomePage: https://github.com/brianc/node-postgres#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/pg-protocol@1.16.0
+
+## Package Information
+PackageName: pg-pool
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-pool-3.14.0
+PackageVersion: 3.14.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/pg-pool/v/3.14.0
+PackageHomePage: https://github.com/brianc/node-pg-pool#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/pg-pool@3.14.0
+
+## Package Information
+PackageName: pg-connection-string
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-connection-string-2.14.0
+PackageVersion: 2.14.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/pg-connection-string/v/2.14.0
+PackageHomePage: https://github.com/brianc/node-postgres/tree/master/packages/pg-connection-string
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/pg-connection-string@2.14.0
+
+## Package Information
+PackageName: pg-cloudflare
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-cloudflare-1.4.0
+PackageVersion: 1.4.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/pg-cloudflare/v/1.4.0
+PackageHomePage: https://github.com/brianc/node-postgres#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/pg-cloudflare@1.4.0
+
+## Package Information
+PackageName: pg
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0
+PackageVersion: 8.23.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/pg/v/8.23.0
+PackageHomePage: https://github.com/brianc/node-postgres
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-connection-string-2.14.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-pool-3.14.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-protocol-1.16.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-types-2.2.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pg-8.23.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-pgpass-1.0.5
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/pg@8.23.0
+
+## Package Information
+PackageName: path-to-regexp
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-path-to-regexp-0.1.13
+PackageVersion: 0.1.13
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/path-to-regexp/v/0.1.13
+PackageHomePage: https://github.com/pillarjs/path-to-regexp#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/path-to-regexp@0.1.13
+
+## Package Information
+PackageName: on-headers
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0
+PackageVersion: 1.1.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/on-headers/v/1.1.0
+PackageHomePage: https://github.com/jshttp/on-headers#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/on-headers@1.1.0
+
+## Package Information
+PackageName: ee-first
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ee-first-1.1.1
+PackageVersion: 1.1.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/ee-first/v/1.1.1
+PackageHomePage: https://github.com/jonathanong/ee-first
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/ee-first@1.1.1
+
+## Package Information
+PackageName: negotiator
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-negotiator-0.6.3
+PackageVersion: 0.6.3
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/negotiator/v/0.6.3
+PackageHomePage: https://github.com/jshttp/negotiator#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/negotiator@0.6.3
+
+## Package Information
+PackageName: morgan
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0
+PackageVersion: 1.12.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/morgan/v/1.12.0
+PackageHomePage: https://github.com/expressjs/morgan#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-basic-auth-2.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-morgan-1.12.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/morgan@1.12.0
+ExternalRef: SECURITY advisory CVE-2026-87859
+
+## Package Information
+PackageName: basic-auth
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-basic-auth-2.0.1
+PackageVersion: 2.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/basic-auth/v/2.0.1
+PackageHomePage: https://github.com/jshttp/basic-auth#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-basic-auth-2.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/basic-auth@2.0.1
+
+## Package Information
+PackageName: mongodb-connection-string-url
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2
+PackageVersion: 3.0.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/mongodb-connection-string-url/v/3.0.2
+PackageHomePage: https://github.com/mongodb-js/mongodb-connection-string-url
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-types-whatwg-url-11.0.5
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-whatwg-url-14.2.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/mongodb-connection-string-url@3.0.2
+
+## Package Information
+PackageName: @types/whatwg-url
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-types-whatwg-url-11.0.5
+PackageVersion: 11.0.5
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/@types/whatwg-url/v/11.0.5
+PackageHomePage: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/whatwg-url
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-types-whatwg-url-11.0.5 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-types-webidl-conversions-7.0.3
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/%40types/whatwg-url@11.0.5
+
+## Package Information
+PackageName: mongodb
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0
+PackageVersion: 6.21.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/mongodb/v/6.21.0
+PackageHomePage: https://github.com/mongodb/node-mongodb-native
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-js-saslprep-1.5.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bson-6.10.4
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-6.21.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-connection-string-url-3.0.2
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/mongodb@6.21.0
+
+## Package Information
+PackageName: @mongodb-js/saslprep
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-js-saslprep-1.5.0
+PackageVersion: 1.5.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/@mongodb-js/saslprep/v/1.5.0
+PackageHomePage: https://github.com/mongodb-js/devtools-shared/tree/main/packages/saslprep
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mongodb-js-saslprep-1.5.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-sparse-bitfield-3.0.3
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/%40mongodb-js/saslprep@1.5.0
+
+## Package Information
+PackageName: bson
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bson-6.10.4
+PackageVersion: 6.10.4
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/bson/v/6.10.4
+PackageHomePage: https://github.com/mongodb/js-bson#readme
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/bson@6.10.4
+
+## Package Information
+PackageName: minimatch
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-minimatch-5.1.9
+PackageVersion: 5.1.9
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/minimatch/v/5.1.9
+PackageHomePage: https://github.com/isaacs/minimatch#readme
+PackageLicenseConcluded: ISC
+PackageLicenseDeclared: ISC
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-minimatch-5.1.9 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/minimatch@5.1.9
+
+## Package Information
+PackageName: brace-expansion
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4
+PackageVersion: 2.1.4
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/brace-expansion/v/2.1.4
+PackageHomePage: https://github.com/juliangruber/brace-expansion#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-brace-expansion-2.1.4 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-balanced-match-1.0.2
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/brace-expansion@2.1.4
+ExternalRef: SECURITY advisory CVE-2026-102276
+ExternalRef: SECURITY advisory CVE-2026-102278
+ExternalRef: SECURITY advisory CVE-2026-102277
+
+## Package Information
+PackageName: mime-db
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-db-1.52.0
+PackageVersion: 1.52.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/mime-db/v/1.52.0
+PackageHomePage: https://github.com/jshttp/mime-db#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/mime-db@1.52.0
+
+## Package Information
+PackageName: methods
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-methods-1.1.2
+PackageVersion: 1.1.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/methods/v/1.1.2
+PackageHomePage: https://github.com/jshttp/methods
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/methods@1.1.2
+
+## Package Information
+PackageName: merge-descriptors
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-merge-descriptors-1.0.3
+PackageVersion: 1.0.3
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/merge-descriptors/v/1.0.3
+PackageHomePage: https://github.com/sindresorhus/merge-descriptors#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/merge-descriptors@1.0.3
+
+## Package Information
+PackageName: math-intrinsics
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-math-intrinsics-1.1.0
+PackageVersion: 1.1.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/math-intrinsics/v/1.1.0
+PackageHomePage: https://github.com/es-shims/math-intrinsics#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/math-intrinsics@1.1.0
+
+## Package Information
+PackageName: lodash.once
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.once-4.1.1
+PackageVersion: 4.1.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/lodash.once/v/4.1.1
+PackageHomePage: https://lodash.com/
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/lodash.once@4.1.1
+
+## Package Information
+PackageName: lodash.isstring
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isstring-4.0.1
+PackageVersion: 4.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/lodash.isstring/v/4.0.1
+PackageHomePage: https://lodash.com/
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/lodash.isstring@4.0.1
+
+## Package Information
+PackageName: lodash.isplainobject
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isplainobject-4.0.6
+PackageVersion: 4.0.6
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/lodash.isplainobject/v/4.0.6
+PackageHomePage: https://lodash.com/
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/lodash.isplainobject@4.0.6
+
+## Package Information
+PackageName: lodash.isnumber
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isnumber-3.0.3
+PackageVersion: 3.0.3
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/lodash.isnumber/v/3.0.3
+PackageHomePage: https://lodash.com/
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/lodash.isnumber@3.0.3
+
+## Package Information
+PackageName: lodash.isinteger
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isinteger-4.0.4
+PackageVersion: 4.0.4
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/lodash.isinteger/v/4.0.4
+PackageHomePage: https://lodash.com/
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/lodash.isinteger@4.0.4
+
+## Package Information
+PackageName: lodash.isboolean
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isboolean-3.0.3
+PackageVersion: 3.0.3
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/lodash.isboolean/v/3.0.3
+PackageHomePage: https://lodash.com/
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/lodash.isboolean@3.0.3
+
+## Package Information
+PackageName: lodash.includes
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.includes-4.3.0
+PackageVersion: 4.3.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/lodash.includes/v/4.3.0
+PackageHomePage: https://lodash.com/
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/lodash.includes@4.3.0
+
+## Package Information
+PackageName: jws
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1
+PackageVersion: 4.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/jws/v/4.0.1
+PackageHomePage: https://github.com/brianloveswords/node-jws#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/jws@4.0.1
+
+## Package Information
+PackageName: jwa
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1
+PackageVersion: 2.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/jwa/v/2.0.1
+PackageHomePage: https://github.com/brianloveswords/node-jwa#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-buffer-equal-constant-time-1.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ecdsa-sig-formatter-1.0.11
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jwa-2.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/jwa@2.0.1
+
+## Package Information
+PackageName: safe-buffer
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1
+PackageVersion: 5.2.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/safe-buffer/v/5.2.1
+PackageHomePage: https://github.com/feross/safe-buffer
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/safe-buffer@5.2.1
+
+## Package Information
+PackageName: buffer-equal-constant-time
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-buffer-equal-constant-time-1.0.1
+PackageVersion: 1.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/buffer-equal-constant-time/v/1.0.1
+PackageHomePage: https://github.com/goinstant/buffer-equal-constant-time
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: BSD-3-Clause
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/buffer-equal-constant-time@1.0.1
+
+## Package Information
+PackageName: ecdsa-sig-formatter
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ecdsa-sig-formatter-1.0.11
+PackageVersion: 1.0.11
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/ecdsa-sig-formatter/v/1.0.11
+PackageHomePage: https://github.com/Brightspace/node-ecdsa-sig-formatter#readme
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ecdsa-sig-formatter-1.0.11 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/ecdsa-sig-formatter@1.0.11
+
+## Package Information
+PackageName: semver
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-semver-7.8.5
+PackageVersion: 7.8.5
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/semver/v/7.8.5
+PackageHomePage: https://github.com/npm/node-semver#readme
+PackageLicenseConcluded: ISC
+PackageLicenseDeclared: ISC
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/semver@7.8.5
+
+## Package Information
+PackageName: jsonwebtoken
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3
+PackageVersion: 9.0.3
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/jsonwebtoken/v/9.0.3
+PackageHomePage: https://github.com/auth0/node-jsonwebtoken#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jws-4.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.includes-4.3.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isboolean-3.0.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isinteger-4.0.4
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isnumber-3.0.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isplainobject-4.0.6
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.isstring-4.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-lodash.once-4.1.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ms-2.1.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jsonwebtoken-9.0.3 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-semver-7.8.5
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/jsonwebtoken@9.0.3
+
+## Package Information
+PackageName: jake
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4
+PackageVersion: 10.9.4
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/jake/v/10.9.4
+PackageHomePage: https://github.com/jakejs/jake#readme
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-async-3.2.6
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-filelist-1.0.6
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-picocolors-1.1.1
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/jake@10.9.4
+
+## Package Information
+PackageName: async
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-async-3.2.6
+PackageVersion: 3.2.6
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/async/v/3.2.6
+PackageHomePage: https://github.com/caolan/async#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/async@3.2.6
+
+## Package Information
+PackageName: filelist
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-filelist-1.0.6
+PackageVersion: 1.0.6
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/filelist/v/1.0.6
+PackageHomePage: https://github.com/mde/filelist
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-filelist-1.0.6 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-minimatch-5.1.9
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/filelist@1.0.6
+
+## Package Information
+PackageName: inherits
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-inherits-2.0.4
+PackageVersion: 2.0.4
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/inherits/v/2.0.4
+PackageHomePage: https://github.com/isaacs/inherits#readme
+PackageLicenseConcluded: ISC
+PackageLicenseDeclared: ISC
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/inherits@2.0.4
+
+## Package Information
+PackageName: hasown
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-hasown-2.0.4
+PackageVersion: 2.0.4
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/hasown/v/2.0.4
+PackageHomePage: https://github.com/inspect-js/hasOwn#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-hasown-2.0.4 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/hasown@2.0.4
+
+## Package Information
+PackageName: function-bind
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2
+PackageVersion: 1.1.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/function-bind/v/1.1.2
+PackageHomePage: https://github.com/Raynos/function-bind
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/function-bind@1.1.2
+
+## Package Information
+PackageName: has-symbols
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-has-symbols-1.1.0
+PackageVersion: 1.1.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/has-symbols/v/1.1.0
+PackageHomePage: https://github.com/ljharb/has-symbols#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/has-symbols@1.1.0
+
+## Package Information
+PackageName: gopd
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0
+PackageVersion: 1.2.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/gopd/v/1.2.0
+PackageHomePage: https://github.com/ljharb/gopd#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/gopd@1.2.0
+
+## Package Information
+PackageName: get-proto
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1
+PackageVersion: 1.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/get-proto/v/1.0.1
+PackageHomePage: https://github.com/ljharb/get-proto#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-get-proto-1.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/get-proto@1.0.1
+
+## Package Information
+PackageName: dunder-proto
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1
+PackageVersion: 1.0.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/dunder-proto/v/1.0.1
+PackageHomePage: https://github.com/es-shims/dunder-proto#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-dunder-proto-1.0.1 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-gopd-1.2.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/dunder-proto@1.0.1
+
+## Package Information
+PackageName: es-object-atoms
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2
+PackageVersion: 1.1.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/es-object-atoms/v/1.1.2
+PackageHomePage: https://github.com/ljharb/es-object-atoms#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-object-atoms-1.1.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/es-object-atoms@1.1.2
+
+## Package Information
+PackageName: call-bind-apply-helpers
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2
+PackageVersion: 1.0.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/call-bind-apply-helpers/v/1.0.2
+PackageHomePage: https://github.com/ljharb/call-bind-apply-helpers#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-es-errors-1.3.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-call-bind-apply-helpers-1.0.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-function-bind-1.1.2
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/call-bind-apply-helpers@1.0.2
+
+## Package Information
+PackageName: finalhandler
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2
+PackageVersion: 1.3.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/finalhandler/v/1.3.2
+PackageHomePage: https://github.com/pillarjs/finalhandler#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/finalhandler@1.3.2
+
+## Package Information
+PackageName: express-session
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0
+PackageVersion: 1.19.0
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/express-session/v/1.19.0
+PackageHomePage: https://github.com/expressjs/session#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-headers-1.1.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-session-1.19.0 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-uid-safe-2.1.5
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/express-session@1.19.0
+
+## Package Information
+PackageName: cookie
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2
+PackageVersion: 0.7.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/cookie/v/0.7.2
+PackageHomePage: https://github.com/jshttp/cookie#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/cookie@0.7.2
+
+## Package Information
+PackageName: cookie-signature
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7
+PackageVersion: 1.0.7
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/cookie-signature/v/1.0.7
+PackageHomePage: https://github.com/visionmedia/node-cookie-signature#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/cookie-signature@1.0.7
+
+## Package Information
+PackageName: express
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2
+PackageVersion: 4.22.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/express/v/4.22.2
+PackageHomePage: http://expressjs.com/
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-array-flatten-1.1.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-disposition-0.5.4
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-encodeurl-2.0.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-escape-html-1.0.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-etag-1.8.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-finalhandler-1.3.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-fresh-0.5.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-merge-descriptors-1.0.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-methods-1.1.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-parseurl-1.3.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-path-to-regexp-0.1.13
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-proxy-addr-2.0.7
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-range-parser-1.2.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-send-0.19.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-serve-static-1.16.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-setprototypeof-1.2.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-statuses-2.0.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-utils-merge-1.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-express-4.22.2 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-vary-1.1.2
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/express@4.22.2
+
+## Package Information
+PackageName: accepts
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8
+PackageVersion: 1.3.8
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/accepts/v/1.3.8
+PackageHomePage: https://github.com/jshttp/accepts#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-mime-types-2.1.35
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-accepts-1.3.8 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-negotiator-0.6.3
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/accepts@1.3.8
+
+## Package Information
+PackageName: array-flatten
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-array-flatten-1.1.1
+PackageVersion: 1.1.1
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/array-flatten/v/1.1.1
+PackageHomePage: https://github.com/blakeembrey/array-flatten
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/array-flatten@1.1.1
+
+## Package Information
+PackageName: body-parser
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6
+PackageVersion: 1.20.6
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/body-parser/v/1.20.6
+PackageHomePage: https://github.com/expressjs/body-parser#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-bytes-3.1.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-debug-2.6.9
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-depd-2.0.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-destroy-1.2.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-http-errors-2.0.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-iconv-lite-0.4.24
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-on-finished-2.4.1
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-qs-6.16.0
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-raw-body-2.5.3
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-type-is-1.6.18
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-body-parser-1.20.6 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-unpipe-1.0.0
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/body-parser@1.20.6
+ExternalRef: SECURITY advisory CVE-2026-111181
+
+## Package Information
+PackageName: content-disposition
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-disposition-0.5.4
+PackageVersion: 0.5.4
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/content-disposition/v/0.5.4
+PackageHomePage: https://github.com/jshttp/content-disposition#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-disposition-0.5.4 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-safe-buffer-5.2.1
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/content-disposition@0.5.4
+
+## Package Information
+PackageName: content-type
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-content-type-1.0.5
+PackageVersion: 1.0.5
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/content-type/v/1.0.5
+PackageHomePage: https://github.com/jshttp/content-type#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/content-type@1.0.5
+
+## Package Information
+PackageName: ejs
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ejs-3.1.10
+PackageVersion: 3.1.10
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/ejs/v/3.1.10
+PackageHomePage: https://github.com/mde/ejs
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-ejs-3.1.10 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-jake-10.9.4
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/ejs@3.1.10
+
+## Package Information
+PackageName: cookie-parser
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-parser-1.4.7
+PackageVersion: 1.4.7
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/cookie-parser/v/1.4.7
+PackageHomePage: https://github.com/expressjs/cookie-parser#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## Relationships
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-parser-1.4.7 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-0.7.2
+Relationship: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-parser-1.4.7 DEPENDS_ON SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-cookie-signature-1.0.7
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/cookie-parser@1.4.7
+
+## Package Information
+PackageName: balanced-match
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-balanced-match-1.0.2
+PackageVersion: 1.0.2
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/balanced-match/v/1.0.2
+PackageHomePage: https://github.com/juliangruber/balanced-match#readme
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/balanced-match@1.0.2
+
+## Package Information
+PackageName: @types/webidl-conversions
+PackageComment: TechnologyType:JS
+SPDXID: SPDXRef-Package-bdd4888e59c298f36c8aaff62435ad204c94d398-types-webidl-conversions-7.0.3
+PackageVersion: 7.0.3
+PackageFileName: vulnerable-node-master/package-lock.json
+PackageSupplier: NOASSERTION
+PackageOriginator: NOASSERTION
+PackageDownloadLocation: https://www.npmjs.com/package/@types/webidl-conversions/v/7.0.3
+PackageHomePage: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/webidl-conversions
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 
+PackageDescription: 
+## ExternalReference
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/%40types/webidl-conversions@7.0.3
+
